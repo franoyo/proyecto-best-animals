@@ -93,7 +93,7 @@ width: 100%;
         display: flex;
 width: 100%;
 height: 20%;
-font-size: larger;
+font-size: 2.4vh;
 font-family: hatton;
 color: beige;
 
@@ -135,6 +135,7 @@ height: 20%;
 
 margin-left: 5vh;
 font-family: hatton;
+font-size: 2vh;
 
     }
     .mitad .user{
@@ -165,7 +166,7 @@ margin-right: 3vh;
 background: none;
 border: solid orange;
 color: #268ecd;
-font-size: 20px;
+font-size: 2vh;
 font-family: hatton;
 
     }
@@ -203,6 +204,7 @@ background-color: darkgray;
     background-color: #313e54;
     color: white;
     font-family: hatton;
+    font-size: 2vh;
     
     
     
@@ -222,6 +224,7 @@ background-color: darkgray;
         border: none;
         background-color: #313e54;
         color: white;
+        font-size: 1.5vh;
         
         
         
