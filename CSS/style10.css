@@ -64,13 +64,14 @@ border-radius: 8px;
 
 
     }
-    .bar .d-flex .form-control{
-width: 62.5vh;
+    .bar .form-control{
+width: 55vh;
 
 
     }
     .d-flex .boton-4{
         width: 15%;
+        height: 100%;
 background: none;
 border: none;
 
