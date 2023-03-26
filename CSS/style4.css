@@ -1,0 +1,283 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+@font-face{
+    font-family:hatton;
+    src: url(../fuentes/PP\ Hatton\ Medium\ 500.otf);
+           }
+.contentheader{
+    display: flex;
+width: 100%;
+height: 15vh;
+
+
+
+}
+.maincontainermiddle{
+    display: flex;
+    width: 100%;
+    height: 70vh;
+   
+    justify-content: space-between;
+
+
+}
+.maincontainermiddle .contenido1{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 65vh;
+
+    margin: 20px;
+}
+.contenido1 .tittle{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+width: 100%;
+height: 20%;
+
+
+
+
+}
+.contenido1 .texto_centro{
+    display: flex;
+    flex-direction: column;
+    margin-left: 13%;
+    
+width: 75%;
+height: 50%;
+
+
+
+
+}
+ .contenido1 .contener{
+display: flex;
+width: 87%;
+height: 35%;
+
+margin-left: 13%;
+
+
+
+}
+.contener .contener1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 60%;
+    height: 100%;
+   
+    margin-left: 13%;
+    
+    
+    
+    }
+    .contener1 .blue{
+        color: #278fce;
+        font-family: hatton;
+        font-size: 3vh;
+
+
+    }
+    .contener .contener2{
+        display: flex;
+        width: 30%;
+        height: 100%;
+       
+
+
+    }
+    .contener2 .cora{
+width: 100%;
+height: 100%;
+
+
+    }
+.texto_centro .texti{
+    font-family: hatton;
+    font-size: 3vh;
+    
+
+
+
+}
+.tittle .internal_text{
+font-family: hatton;
+font-size: 4.8vh;
+color: #278fce;
+
+
+}
+
+
+
+.maincontainermiddle .contenido2{
+    display: flex;
+    width: 50%;
+    height: 65vh;
+    background-color:  #ade2f8;
+    margin: 20px;
+
+flex-direction: column;
+border-radius: 50px;
+
+}
+
+.contenido2 .logito{
+    display: flex;
+    width: 100%;
+    height: 8vh;
+    background-color:  #ade2f8;
+    border-top-left-radius: 50px;
+       border-top-right-radius: 50px;
+       justify-content: center;
+       align-items: center;
+}
+.logito .redi{
+width: 30%;
+height: 100%;
+position: relative;
+top: 20px;
+
+}
+.contenedorimagenes1{
+display: flex;
+
+width: 100%;
+height: 48%;
+
+align-items: end;
+justify-content: center
+
+}
+.contenedorimagenes1 .img1{
+    display: flex;
+    width: 48%;
+    height: 85%;
+   
+
+   
+    }
+    .img1 .best1{
+        width: 100%;
+    }
+    .img2 .best2{
+width: 100%;
+
+    }
+    
+    .contenedorimagenes1 .img2{
+    display: flex;
+    width: 42%;
+    height: 85%;
+
+    
+    }
+    
+    .contenedorimagenes2{display: flex;
+
+        width: 100%;
+        height: 40%;
+       
+       border-bottom-left-radius: 50px;
+       border-bottom-right-radius: 50px;
+    }
+        .contenedorimagenes2 .img3
+{
+    display: flex;
+    width: 52%;
+    height: 70%;
+    
+    margin-left: 5%;
+
+
+}
+.img3 .best3{
+width: 100%;
+
+
+}
+.contenedorimagenes2 .img4
+{
+    display: flex;
+    width: 45%;
+    height: 100%;
+ 
+    justify-content: end;
+    border-bottom-right-radius: 50px;
+    
+
+
+}
+.img4 .cora {
+    border-bottom-right-radius: 50px;
+
+
+}
+    
+    
+
+
+.pie{
+    display: flex;
+    width: 100%;
+    height: 15vh;
+    
+
+
+   
+}
+.pie .piess{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+height: 100%;
+
+
+}
+.piess .container_dog{
+    display: flex;
+width: 14%;
+height: 100%;
+
+
+
+
+}
+.container_dog .canva_perro{
+    width: 100%;
+    height: 95%;
+     } 
+.piess .orange_huellas{
+width: 10%;
+height: 50%;
+
+
+}
+.piess .container_huellas{
+    display: flex;
+width: 15%;
+height: 100%;
+
+
+
+
+}
+.container_huellas .orange_huellas{
+    margin-top: 7%;
+width: 100%;
+height: 70%;
+
+
+}
+

@@ -1,0 +1,1737 @@
+body{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+
+.mains{
+display: flex;
+
+
+width: 100%;
+height: 20vh;
+
+}
+.contenido{
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+    
+    
+    
+}
+.contenido .img1{
+
+    
+    width: 375px;
+    height: 162..5px;
+    margin: 43.75px;
+    margin-right: 175px;
+    
+}
+.contenido .servicios .ln{
+    margin-right: 175px;
+    margin-left: 175px;
+    color: #d9862c;
+   
+    
+   
+}
+.contenido .servicios .oc{
+  
+    margin-left: 175px;
+    color: #d9862c;
+    
+   
+}
+.contenido .servicios .sz{
+    margin-right: 175px;
+    margin-left: 175px;
+    color: #d9862c;
+    
+   
+}
+
+.contenido .servicios .boton1{
+    width: 75px;
+    height: 75px;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+    
+    
+    
+    
+}
+
+    
+
+
+
+
+    
+
+
+
+.contenido .servicios .cl{
+margin-right: 155px;
+margin-left:4px ;
+text-decoration: none;
+color: #d9862c;
+font-size: 22px;
+
+}
+.contenido .servicios .cl1{
+    margin-right: 100px;
+    margin-left:5px ;
+    text-decoration: none;
+    color: #d9862c;
+    font-size: 22px;}
+    
+    
+.contenido .servicios .cl2
+{margin-right: 155px;
+    margin-left:5px ;
+    text-decoration: none;
+    color: #d9862c;
+    font-size: 22px;}
+    
+.contenido .servicios .cl3
+{margin-right: 130px;
+    margin-left:-10px;
+    text-decoration: none; 
+    color: #d9862c;
+    font-size: 22px;}
+    .middle{
+        display: flex;
+       
+        
+        width: 100%;
+        height: 60vh;
+      background-image: url(../img/perro.jpeg);
+      background-repeat: no-repeat;
+      background-position: 90vh;
+      background-size: contain;
+      
+        
+    }
+    .contenido .servicios .cl4
+{margin-right: 120px;
+    margin-left:0px ;
+    text-decoration: none;
+    color: #d9862c;
+    font-size: 22px;}
+
+ 
+    .contenido2{
+        display: flex;
+        align-items: center;
+       
+       
+  
+
+    }
+    .contenido2 .eo{
+        font-family: 'Crimson Pro';font-size:110px ;
+        font-weight: 1000;
+       
+       margin-left: 35px;
+       margin-bottom: 50px;
+       color: #278fce;
+       position: relative;
+       bottom: 10vh;
+    }
+    .contenido2 .cart{
+        width: 30vh;
+position: relative;
+right: 900px;
+top: 150px;
+
+    }
+ 
+
+
+
+ 
+    .fns{
+        display: flex;
+        
+       
+background-color: #268ecd;
+
+width: 100%;
+height: 20vh;
+    }
+    .contenido3{
+        display: flex;
+        justify-content: center;
+        
+       
+    
+    }
+    .contenido3 .redes .cti{
+        width: 40px;
+        height: 40px;
+        margin-top: 15px;
+        margin-left: 35px;
+        margin-right: 5px;
+     
+     
+  
+
+    }
+    .contenido3 .redes .cti1{
+        width: 40px;
+        height: 40px;
+        margin-top: 15px;
+        margin-right: 5px;
+      
+       
+        
+    }
+.contenido3 .end{
+    position: relative;
+margin-left:550px ;
+margin-top: 15vh;
+text-align: center;  
+   
+}
+@media(max-width:1919px ){
+    .mains{
+        display: flex;
+        
+        
+        width: 100%;
+        height: 20vh;
+
+        }
+        .contenido{
+            display: flex;
+            align-items: center;
+           justify-content: space-between;
+            
+            
+            
+        }
+        .contenido .img1{
+        
+            
+            width: 300px;
+            height: 130px;
+            margin: 80px;
+            margin-right: 170px;
+            
+        }
+        .contenido .servicios .ln{
+            margin-right: 170px;
+            margin-left: 170px;
+            color: #d9862c;
+            
+           
+        }
+        .contenido .servicios .oc{
+          
+            margin-left: 170px;
+            color: #d9862c;
+            
+           
+        }
+        .contenido .servicios .sz{
+            margin-right: 170px;
+            margin-left: 170px;
+            color: #d9862c;
+            
+           
+        }
+        
+        .contenido .servicios .boton1{
+            width: 60px;
+            height: 60px;
+            filter: brightness(1.1);
+            mix-blend-mode: multiply;
+            
+            
+            
+            
+        }
+        
+            
+        
+        
+        
+        
+            
+        
+        
+        
+        .contenido .servicios .cl{
+        margin-right: 135px;
+        margin-left:-3px ;
+        text-decoration: none;
+        color: #d9862c;
+        
+        }
+        .contenido .servicios .cl1{
+            margin-right: 80px;
+            margin-left:5px ;
+            text-decoration: none;
+            color: #d9862c;}
+            
+            
+        .contenido .servicios .cl2
+        {margin-right: 135px;
+            margin-left:5px ;
+            text-decoration: none;
+            color: #d9862c;}
+            
+        .contenido .servicios .cl3
+        {margin-right: 110px;
+            margin-left:-10px;
+            text-decoration: none; 
+            color: #d9862c;}
+            .middle{
+                display: flex;
+               
+                
+                width: 100%;
+                height: 60vh;
+              background-image: url(../img/perro.jpeg);
+              background-repeat: no-repeat;
+              background-position-x: 90vh
+              
+                
+            }
+            .contenido .servicios .cl4
+        {margin-right: 120px;
+            margin-left:0px ;
+            text-decoration: none;
+            color: #d9862c;}
+        
+         
+            .contenido2{
+                display: flex;
+                align-items: center;
+               
+               
+          
+        
+            }
+            .contenido2 .eo{
+                font-family: 'Crimson Pro';font-size:80px ;
+                font-weight: 1000;
+               
+               margin-left: 80px;
+               margin-bottom: 50px;
+               color: #278fce;
+               position: relative;
+               bottom: 10vh;
+            }
+            .contenido2 .cart{
+                width: 30vh;
+        position: relative;
+        right: 650px;
+        top: 110px;
+        
+            }
+         
+        
+        
+        
+         
+            .fns{
+                display: flex;
+                
+               
+        background-color: #268ecd;
+        
+        width: 100%;
+        height: 20vh;
+            }
+            .contenido3{
+                display: flex;
+                justify-content: center;
+                
+               
+            
+            }
+            .contenido3 .redes .cti{
+                width: 40px;
+                height: 40px;
+                margin-top: 15px;
+                margin-left: 80px;
+                margin-right: 5px;
+             
+             
+          
+        
+            }
+            .contenido3 .redes .cti1{
+                width: 40px;
+                height: 40px;
+                margin-top: 15px;
+                margin-right: 5px;
+              
+               
+                
+            }
+        .contenido3 .end{
+            position: relative;
+        margin-left:500px ;
+        margin-top: 15vh;
+        text-align: center;  
+           
+        }
+
+
+
+
+
+}
+ /* REDIMENSION 1430PX*/ 
+@media(max-width:1734px ){
+    .mains{
+        display: flex;
+        
+        
+        width: 100%;
+        height: 20vh;
+    
+        }
+
+.contenido .img1{
+
+    
+    width: 250px;
+    height: 108.33px;
+    margin: 29.16px;
+    margin-right: 116.66px;
+    
+}
+
+.contenido .servicios .ln{
+    margin-right: 116.66px;
+    margin-left: 116.66px;
+    color: #d9862c;
+    
+   
+}
+.contenido .servicios .oc{
+  
+    margin-left: 116.66px;
+    color: #d9862c;
+    
+   
+}
+.contenido .servicios .sz{
+    margin-right: 116.66px;
+    margin-left: 116.66px;
+    color: #d9862c;
+    
+   
+}
+.contenido .servicios .boton1{
+    width: 50px;
+    height: 50px;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+
+}
+.contenido .servicios .cl{
+    margin-right: 90px;
+    margin-left:2.5px ;
+    text-decoration: none;
+    color: #d9862c;
+    font-size: 17px;
+    position: relative;
+  right: 3px;
+    
+    }
+    .contenido .servicios .cl1{
+        margin-right: 50px;
+        margin-left:2.0px ;
+        text-decoration: none;
+        color: #d9862c;
+        font-size: 17px;
+  
+    }
+        
+        
+        
+    .contenido .servicios .cl2
+    {margin-right: 95px;
+        margin-left:2.5px ;
+        text-decoration: none;
+        color: #d9862c;
+        font-size: 17px;}
+        
+    .contenido .servicios .cl3
+    {margin-right: 75px;
+        margin-left:-5px;
+        text-decoration: none; 
+        color: #d9862c;
+        font-size: 17px;}
+       
+        .contenido .servicios .cl4
+    {margin-right: 75px;
+        margin-left:0px ;
+        text-decoration: none;
+        color: #d9862c;
+        font-size: 17px;
+    }
+    .middle{
+        display: flex;
+       
+        
+        width: 100%;
+        height: 60vh;
+      background-image: url(../img/perro.jpeg);
+      background-repeat: no-repeat;
+      background-position-x: 90vh;
+      background-size: contain;
+      
+        
+    }
+    .contenido2{
+        display: flex;
+        align-items: center;
+       
+       
+  
+
+    }
+    .contenido2 .eo{
+        font-family: 'Crimson Pro';font-size:66.66px ;
+        font-weight: 833.33;
+       
+      
+       color: #278fce;
+       position: relative;
+       bottom: 10vh;
+    }
+    .contenido2 .cart{
+        width: 30vh;
+position: relative;
+right: 541.66px;
+top: 110px;
+
+    }
+    .contenido3{
+        display: flex;
+        justify-content: center;
+        
+       
+    
+    }
+    .redes{
+        flex-direction: column;
+
+    }
+    .contenido3 .redes .cti{
+        width: 33.33px;
+        height: 33.33px;
+        margin-top: 15px;
+        margin-left: 35px;
+        margin-right: 2.5px;
+     
+     
+  
+
+    }
+    .contenido3 .redes .cti1{
+        width: 33.33px;
+        height: 33.33px;
+        margin-top: 4px;
+        margin-right: 2.5px;
+      
+       
+        
+    }
+    .contenido3 .end{
+        font-size: small;
+        position: relative;
+    margin-left:266.66px ;
+    margin-top: 15vh;
+    text-align: center;  
+       
+    }
+    
+}
+@media(max-width:1250px ){
+    .mains{
+        display: flex;
+        
+        
+        width: 100%;
+        height: 20vh;
+    
+        }
+
+.contenido .img1{
+
+    
+    width: 230px;
+    height: 100px;
+    margin: 27px;
+    margin-right: 107.69px;
+    
+}
+.contenido .servicios .ln{
+    margin-right: 107.69px;
+    margin-left: 107.69px;
+    color: #d9862c;
+    
+   
+}
+.contenido .servicios .oc{
+  
+    margin-left: 107.69px;
+    color: #d9862c;
+    
+   
+}
+.contenido .servicios .sz{
+    margin-right: 107.69px;
+    margin-left: 107.69px;
+    color: #d9862c;
+    
+   
+}
+.contenido .servicios .boton1{
+    width: 46.15px;
+    height: 46.15px;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+
+}
+.contenido .servicios .cl{
+    margin-right: 75px;
+    margin-left:2.5px ;
+    text-decoration: none;
+    color: #d9862c;
+    font-size: 17px;
+    
+    }
+    .contenido .servicios .cl1{
+        margin-right: 40px;
+        margin-left:2.5px ;
+        text-decoration: none;
+        color: #d9862c;
+        font-size: 17px;}
+        
+        
+        
+    .contenido .servicios .cl2
+    {margin-right: 77px;
+        margin-left:2.5px ;
+        text-decoration: none;
+        color: #d9862c;
+        font-size: 17px;}
+        
+    .contenido .servicios .cl3
+    {margin-right: 68px;
+        margin-left:-5px;
+        text-decoration: none; 
+        color: #d9862c;
+        font-size: 17px;}
+       
+        .contenido .servicios .cl4
+    {margin-right: 60px;
+        margin-left:0px ;
+        text-decoration: none;
+        color: #d9862c;
+        font-size: 16px;
+    }
+    .middle{
+        display: flex;
+       
+        
+        width: 100%;
+        height: 60vh;
+      background-image: url(../img/perro.jpeg);
+      background-repeat: no-repeat;
+      background-position-x: 80vh;
+      background-size: contain;
+      
+        
+    }
+    .contenido2{
+        display: flex;
+        align-items: center;
+       
+       
+  
+
+    }
+    .contenido2 .eo{
+        font-family: 'Crimson Pro';font-size:61.53px ;
+        font-weight: 769.23;
+       
+      
+       color: #278fce;
+       position: relative;
+       bottom: 10vh;
+    }
+    .contenido2 .cart{
+        width: 30vh;
+position: relative;
+right: 500px;
+top: 110px;
+
+    }
+    .contenido3{
+        display: flex;
+        justify-content: center;
+        
+       
+    
+    }
+    .redes{
+        flex-direction: column;
+
+    }
+    .contenido3 .redes .cti{
+        width: 30px;
+        height: 30px;
+        margin-top: 15px;
+        margin-left: 35px;
+        margin-right: 2.5px;
+     
+     
+  
+
+    }
+    .contenido3 .redes .cti1{
+        width: 30px;
+        height: 30px;
+        margin-top: 4px;
+        margin-right: 2.5px;
+      
+       
+        
+    }
+    .contenido3 .end{
+        font-size: small;
+        position: relative;
+    margin-left:246.15px ;
+    margin-top: 15vh;
+    text-align: center;  
+       
+    }
+    
+}
+ /*RESPONSIVE EN 1150 PIXELES */ 
+@media(max-width:1150px ){
+    .mains{
+        display: flex;
+        
+        
+        width: 100%;
+        height: 20vh;
+    
+        }
+
+.contenido .img1{
+
+    
+    width: 200px;
+    height: 86.6px;
+    margin: 35px;
+    margin-right: 70px;
+    
+}
+.contenido .servicios .ln{
+    margin-right: 70px;
+    margin-left: 70px;
+    color: #d9862c;
+    
+   
+}
+.contenido .servicios .oc{
+  
+    margin-left: 70px;
+    color: #d9862c;
+    
+   
+}
+.contenido .servicios .sz{
+    margin-right: 70px;
+    margin-left: 70px;
+    color: #d9862c;
+    
+   
+}
+.contenido .servicios .boton1{
+    width: 30px;
+    height: 30px;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+
+}
+.contenido .servicios .cl{
+    margin-right: 55px;
+    margin-left:2.5px ;
+    text-decoration: none;
+    color: #d9862c;
+    font-size: 10px;
+    
+    }
+    .contenido .servicios .cl1{
+        margin-right: 30px;
+        margin-left:2.5px ;
+        text-decoration: none;
+        color: #d9862c;
+        font-size: 10px;}
+        
+        
+        
+    .contenido .servicios .cl2
+    {margin-right: 58px;
+        margin-left:2.5px ;
+        text-decoration: none;
+        color: #d9862c;
+        font-size: 10px;}
+        
+    .contenido .servicios .cl3
+    {margin-right: 50px;
+        margin-left:-5px;
+        text-decoration: none; 
+        color: #d9862c;
+        font-size: 10px;}
+       
+        .contenido .servicios .cl4
+    {margin-right: 60px;
+        margin-left:0px ;
+        text-decoration: none;
+        color: #d9862c;
+        font-size: 10px;
+    }
+    .middle{
+        display: flex;
+       
+        
+        width: 100%;
+        height: 60vh;
+      background-image: url(../img/perro.jpeg);
+      background-repeat: no-repeat;
+      background-position-x: 50vh;
+      background-size: contain;
+      
+        
+    }
+    .contenido2{
+        display: flex;
+        align-items: center;
+       
+       
+  
+
+    }
+    .contenido2 .eo{
+        font-family: 'Crimson Pro';font-size:45px ;
+        font-weight: 700;
+       
+      
+       color: #278fce;
+       position: relative;
+       bottom: 10vh;
+    }
+    .contenido2 .cart{
+        width: 30vh;
+position: relative;
+right: 400px;
+top: 110px;
+
+    }
+    .contenido3{
+        display: flex;
+        justify-content: center;
+        
+       
+    
+    }
+    .redes{
+        flex-direction: column;
+
+    }
+    .contenido3 .redes .cti{
+        width: 30px;
+        height: 30px;
+        margin-top: 15px;
+        margin-left: 5px;
+        margin-right: 2.5px;
+     
+     
+  
+
+    }
+    .contenido3 .redes .cti1{
+        width: 30px;
+        height: 30px;
+        margin-top: 4px;
+        margin-right: 2.5px;
+      
+       
+        
+    }
+    .contenido3 .end{
+        font-size: small;
+        position: relative;
+    margin-left:180px ;
+    margin-top: 15vh;
+    text-align: center;  
+       
+    }
+    
+}
+
+    
+@media(max-width:830px ){
+    .mains{
+        display: flex;
+        
+        
+        width: 100%;
+        height: 20vh;
+    
+        }
+
+.contenido .img1{
+
+    
+    width: 136.36px;
+    height: 59px;
+    margin: 15.9px;
+    margin-right: 36.36px;
+    
+}
+.contenido .servicios .ln{
+    margin-right: 36.36px;
+    margin-left: 36.36px;
+    color: #d9862c;
+    
+   
+}
+.contenido .servicios .oc{
+  
+    margin-left: 36.36px;
+    color: #d9862c;
+    
+   
+}
+.contenido .servicios .sz{
+    margin-right: 36.36px;
+    margin-left: 36.36px;
+    color: #d9862c;
+    
+   
+}
+.contenido .servicios .boton1{
+    width: 27.27px;
+    height: 27.27px;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+
+}
+.contenido .servicios .cl{
+    margin-right: 30px;
+    margin-left:2.5px ;
+    text-decoration: none;
+    color: #d9862c;
+    font-size: 7.5px;
+    
+    }
+    .contenido .servicios .cl1{
+        margin-right: 11px;
+        margin-left:2.5px ;
+        text-decoration: none;
+        color: #d9862c;
+        font-size:7.5px;}
+        
+        
+        
+    .contenido .servicios .cl2
+    {margin-right: 33px;
+        margin-left:2.5px ;
+        text-decoration: none;
+        color: #d9862c;
+        font-size: 7.5px;}
+        
+    .contenido .servicios .cl3
+    {margin-right: 28px;
+        margin-left:-5px;
+        text-decoration: none; 
+        color: #d9862c;
+        font-size: 7.5px;}
+       
+        .contenido .servicios .cl4
+    {margin-right: 28pxpx;
+        margin-left:0px ;
+        text-decoration: none;
+        color: #d9862c;
+        font-size: 7.5px;
+    }
+    .middle{
+        display: flex;
+       
+        
+        width: 100%;
+        height: 60vh;
+      background-image: url(../img/perro.jpeg);
+      background-repeat: no-repeat;
+      background-position-x: 35vh;
+      background-size: contain;
+      
+        
+    }
+    .contenido2{
+        display: flex;
+        align-items: center;
+       
+       
+  
+
+    }
+    .contenido2 .eo{
+        font-family: 'Crimson Pro';font-size:36.36px ;
+        font-weight: 769.23;
+       
+      
+       color: #278fce;
+       position: relative;
+       bottom: 10vh;
+    }
+    .contenido2 .cart{
+        width: 20vh;
+position: relative;
+right: 295.45px;
+top: 110px;
+
+    }
+    .contenido3{
+        display: flex;
+        justify-content: center;
+        
+       
+    
+    }
+    .redes{
+        flex-direction: column;
+
+    }
+    .contenido3 .redes .cti{
+        width: 30px;
+        height: 30px;
+        margin-top: 15px;
+        margin-left: 35px;
+        margin-right: 2.5px;
+     
+     
+  
+
+    }
+    .contenido3 .redes .cti1{
+        width: 30px;
+        height: 30px;
+        margin-top: 4px;
+        margin-right: 2.5px;
+      
+       
+        
+    }
+    .contenido3 .end{
+        font-size: small;
+        position: relative;
+    margin-left:100.45px ;
+    margin-top: 15vh;
+    text-align: center;  
+       
+    }
+    
+}
+@media(max-height: 240px){
+    .mains{
+        display: flex;
+        width: 100%;
+        height: 20vh;
+    
+        }
+
+.contenido .img1{
+
+    
+    width: 136.36px;
+    height: 59px;
+    margin: 15.9px;
+    margin-right: 36.36px;
+    
+}
+.contenido .servicios .ln{
+    margin-right: 36.36px;
+    margin-left: 36.36px;
+    color: #d9862c;
+    
+   
+}
+.contenido .servicios .oc{
+  
+    margin-left: 36.36px;
+    color: #d9862c;
+    
+   
+}
+.contenido .servicios .sz{
+    margin-right: 36.36px;
+    margin-left: 36.36px;
+    color: #d9862c;
+    
+   
+}
+.contenido .servicios .boton1{
+    width: 27.27px;
+    height: 27.27px;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+
+}
+.contenido .servicios .cl{
+    margin-right: 30px;
+    margin-left:2.5px ;
+    text-decoration: none;
+    color: #d9862c;
+    font-size: 7.5px;
+    
+    }
+    .contenido .servicios .cl1{
+        margin-right: 11px;
+        margin-left:2.5px ;
+        text-decoration: none;
+        color: #d9862c;
+        font-size:7.5px;}
+        
+        
+        
+    .contenido .servicios .cl2
+    {margin-right: 33px;
+        margin-left:2.5px ;
+        text-decoration: none;
+        color: #d9862c;
+        font-size: 7.5px;}
+        
+    .contenido .servicios .cl3
+    {margin-right: 28px;
+        margin-left:-5px;
+        text-decoration: none; 
+        color: #d9862c;
+        font-size: 7.5px;}
+       
+        .contenido .servicios .cl4
+    {margin-right: 28px;
+        margin-left:0px ;
+        text-decoration: none;
+        color: #d9862c;
+        font-size: 7.5px;
+    }
+    .middle{
+        display: flex;
+       
+        
+        width: 100%;
+        height: 60vh;
+      background-image: url(../img/perro.jpeg);
+      background-repeat: no-repeat;
+      background-position-x: 30vh;
+      background-size: 30vh;
+      
+        
+    }
+    .contenido2{
+        display: flex;
+        align-items: center;
+       
+       
+  
+
+    }
+    .contenido2 .eo{
+        font-family: 'Crimson Pro';font-size:61.53px ;
+        font-weight: 769.23;
+       
+      
+       color: #278fce;
+       position: relative;
+       bottom: 10vh;
+    }
+    .contenido2 .cart{
+        width: 30vh;
+position: relative;
+right: 500px;
+top: 110px;
+
+    }
+    .contenido3{
+        display: flex;
+        justify-content: center;
+        
+       
+    
+    }
+    .redes{
+        flex-direction: column;
+
+    }
+    .contenido3 .redes .cti{
+        width: 30px;
+        height: 30px;
+        margin-top: 15px;
+        margin-left: 35px;
+        margin-right: 2.5px;
+     
+     
+  
+
+    }
+    .contenido3 .redes .cti1{
+        width: 30px;
+        height: 30px;
+        margin-top: 4px;
+        margin-right: 2.5px;
+      
+       
+        
+    }
+    .contenido3 .end{
+        font-size: small;
+        position: relative;
+    margin-left:246.15px ;
+    margin-top: 15vh;
+    text-align: center;  
+       
+    }
+}
+/*responsive for mobiles horizontal*/
+@media (max-device-width:1000px),(max-device-height:800px ){
+    .mains{
+        display: flex;
+        
+        
+        width: 100%;
+        height: 20vh;
+    
+        }
+
+.contenido .img1{
+
+    
+    width: 200px;
+    height: 86.6px;
+    margin: 35px;
+    margin-right: 70px;
+    
+}
+.contenido .servicios .ln{
+    margin-right: 70px;
+    margin-left: 70px;
+    color: #d9862c;
+    
+   
+}
+.contenido .servicios .oc{
+  
+    margin-left: 70px;
+    color: #d9862c;
+    
+   
+}
+.contenido .servicios .sz{
+    margin-right: 70px;
+    margin-left: 70px;
+    color: #d9862c;
+    
+   
+}
+.contenido .servicios .boton1{
+    width: 30px;
+    height: 30px;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+
+}
+.contenido .servicios .cl{
+    margin-right: 55px;
+    margin-left:2.5px ;
+    text-decoration: none;
+    color: #d9862c;
+    font-size: 10px;
+    
+    }
+    .contenido .servicios .cl1{
+        margin-right: 30px;
+        margin-left:2.5px ;
+        text-decoration: none;
+        color: #d9862c;
+        font-size: 10px;}
+        
+        
+        
+    .contenido .servicios .cl2
+    {margin-right: 58px;
+        margin-left:2.5px ;
+        text-decoration: none;
+        color: #d9862c;
+        font-size: 10px;}
+        
+    .contenido .servicios .cl3
+    {margin-right: 50px;
+        margin-left:-5px;
+        text-decoration: none; 
+        color: #d9862c;
+        font-size: 10px;}
+       
+        .contenido .servicios .cl4
+    {margin-right: 60px;
+        margin-left:0px ;
+        text-decoration: none;
+        color: #d9862c;
+        font-size: 10px;
+    }
+    .middle{
+        display: flex;
+       
+        
+        width: 100%;
+        height: 60vh;
+      background-image: url(../img/perro.jpeg);
+      background-repeat: no-repeat;
+      background-position-x: 110vh;
+      background-size: contain;
+      
+        
+    }
+    .contenido2{
+        display: flex;
+        align-items: center;
+       
+       
+  
+
+    }
+    .contenido2 .eo{
+        font-family: 'Crimson Pro';font-size:45px ;
+        font-weight: 700;
+       
+      
+       color: #278fce;
+       position: relative;
+       bottom: 10vh;
+    }
+    .contenido2 .cart{
+        width: 30vh;
+position: relative;
+right: 400px;
+top: 50px;
+
+    }
+    .contenido3{
+        display: flex;
+        justify-content: center;
+        
+       
+    
+    }
+    .redes{
+        flex-direction: column;
+
+    }
+    .contenido3 .redes .cti{
+        width: 30px;
+        height: 30px;
+        margin-top: 15px;
+        margin-left: 5px;
+        margin-right: 2.5px;
+     
+     
+  
+
+    }
+    .contenido3 .redes .cti1{
+        width: 30px;
+        height: 30px;
+        margin-top: 4px;
+        margin-right: 2.5px;
+      
+       
+        
+    }
+    .contenido3 .end{
+        font-size: small;
+        position: relative;
+    margin-left:140px ;
+    margin-top: 15vh;
+    text-align: center;  
+       
+    }
+    
+}
+/*telefono antiguo */
+@media(max-device-width:700px ){
+    .mains{
+        display: flex;
+        
+        
+        width: 100%;
+        height: 20vh;
+    
+        }
+
+.contenido .img1{
+
+    
+    width: 130.43px;
+    height: 56.52px;
+    margin: 15.9px;
+    margin-right: 50.36px;
+    
+}
+.contenido .servicios .ln{
+    margin-right: 50.36px;
+    margin-left: 50.36px;
+    color: #d9862c;
+    
+    
+   
+}
+.contenido .servicios .oc{
+  
+    margin-left: 50.36px;
+    color: #d9862c;
+    
+   
+}
+.contenido .servicios .sz{
+    margin-right: 50.36px;
+    margin-left: 50.36px;
+    color: #d9862c;
+    
+   
+}
+.contenido .servicios .boton1{
+    width: 27px;
+    height: 27px;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+
+}
+.contenido .servicios .cl{
+    margin-right: 35px;
+    margin-left:2.5px ;
+    text-decoration: none;
+    color: #d9862c;
+    font-size: 9px;
+    
+    }
+    .contenido .servicios .cl1{
+        margin-right: 15px;
+        margin-left:2.5px ;
+        text-decoration: none;
+        color: #d9862c;
+        font-size:9px;}
+        
+        
+        
+    .contenido .servicios .cl2
+    {margin-right: 40px;
+        margin-left:2.5px ;
+        text-decoration: none;
+        color: #d9862c;
+        font-size: 9px;}
+        
+    .contenido .servicios .cl3
+    {margin-right: 32px;
+        margin-left:-5px;
+        text-decoration: none; 
+        color: #d9862c;
+        font-size: 9px;}
+       
+        .contenido .servicios .cl4
+    {margin-right: 28px;
+        margin-left:0px ;
+        text-decoration: none;
+        color: #d9862c;
+        font-size: 9px;
+    }
+    .middle{
+        display: flex;
+       
+        
+        width: 100%;
+        height: 60vh;
+      background-image: url(../img/perro.jpeg);
+      background-repeat: no-repeat;
+      background-position-x: 90vh;
+      background-size: contain;
+      
+        
+    }
+    .contenido2{
+        display: flex;
+        justify-content: start;
+        height: 100%;
+        width: 100%;
+      
+       
+  
+
+    }
+    .contenido2 .eo{
+        font-family: 'Crimson Pro';font-size:36.36px ;
+        
+       
+      
+       color: #278fce;
+       position: relative;
+       bottom: 10vh;
+       right: 8%;
+    }
+    .contenido2 .cart{
+        width: 30vh;
+position: relative;
+right: 90vh;
+top: 50px;
+
+    }
+    .contenido3{
+        display: flex;
+        justify-content: center;
+        
+       
+    
+    }
+    .redes{
+        flex-direction: column;
+
+    }
+    .contenido3 .redes .cti{
+        width: 20px;
+        height: 20px;
+        margin-top: 15px;
+        margin-left: 35px;
+        margin-right: 2.5px;
+     
+     
+  
+
+    }
+    .contenido3 .redes .cti1{
+        width: 20px;
+        height: 20px;
+        margin-top: 4px;
+        margin-right: 2.5px;
+      
+       
+        
+    }
+    .contenido3 .end{
+        font-size: 10px;
+        position: relative;
+    margin-left:67.45px ;
+    margin-top: 15vh;
+    text-align: center;  
+       
+    }
+    
+}
+/* ORIENTACION VERTICAL*/
+@media(orientation:portrait){
+    .mains{
+        display:flex;
+        
+        
+        width: 138%;
+        height: 20vh;
+        background-color: #ffffff;
+       align-items: center;
+       justify-content: center;
+        
+       
+       
+        }
+        .contenido{
+            width: 138%;
+display: flex;
+flex-direction: column;
+
+        }
+
+.contenido .img1{
+
+    
+    width: 130.43px;
+    height: 56.52px;
+    margin: 5px;
+    
+    
+}
+.contenido .servicios .ln{
+    margin-right:30.5px ;
+    margin-left: 30.5px ;
+    color: #d9862c;
+    position: relative;
+ 
+    
+   
+}
+.contenido .servicios .oc{
+  
+    margin-left:30.5px  ;
+    margin-right: 30.5px ;
+    color: #d9862c;
+    
+   
+}
+.contenido .servicios .sz{
+    margin-right:5% ;
+    margin-left: 1px;
+    color: #d9862c;
+    
+   
+}
+.contenido .servicios .boton1{
+    width: 27px;
+    height: 27px;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+margin-left: 12px;
+}
+.contenido .servicios .cl{
+    margin-right: 32px;
+    margin-left:15.5px ;
+    text-decoration: none;
+    color: #d9862c;
+    font-size: 8px;
+    
+    }
+    .contenido .servicios .cl1{
+        margin-right: 14px;
+        margin-left:2.5px ;
+        text-decoration: none;
+        color: #d9862c;
+        font-size:8px;}
+        
+        
+        
+    .contenido .servicios .cl2
+    {margin-right: 37px;
+        margin-left:2.5px ;
+        text-decoration: none;
+        color: #d9862c;
+        font-size: 8px;}
+        
+    .contenido .servicios .cl3
+    {margin-right: 29px;
+        margin-left:-5px;
+        text-decoration: none; 
+        color: #d9862c;
+        font-size: 8px;}
+       
+        .contenido .servicios .cl4
+    {margin-right: 28px;
+        margin-left:0px ;
+        text-decoration: none;
+        color: #d9862c;
+        font-size: 8px;
+    }
+    .middle{
+        display: flex;
+     
+        
+        width: 138%;
+        height:98vh;
+        
+       
+        background-image: url(../img/perro.jpeg);
+      background-repeat: no-repeat;
+      background-position: bottom;
+      background-size: contain;
+        
+    }
+    .contenido2{
+        display: flex;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+       
+       
+       
+  
+
+    }
+    .contenido2 .eo{
+        font-family: 'Crimson Pro';font-size: 7vh;
+        text-align: center;
+        font-weight: 100%;
+       margin-top: 30%;
+   
+       
+      
+       color: #268ecd;
+      
+    }
+    .contenido2 .grt .cart{
+        width: 80%;
+        position: relative;
+        left: 13%;
+        
+
+
+    }
+    .fns{
+        display: flex;
+
+width: 138%;
+
+
+
+    }
+    .contenido3{
+        display: flex;
+       
+        width: 138%;
+       
+    
+    }
+    .redes{
+        flex-direction: column;
+align-self: flex-start;
+    }
+    .contenido3 .redes .cti{
+        width: 20px;
+        height: 20px;
+        margin-top: 15px;
+        margin-left: 0px;
+        margin-right: 2.5px;
+     
+     
+  
+
+    }
+    .contenido3 .redes .cti1{
+        width: 20px;
+        height: 20px;
+        margin-top: 4px;
+        margin-right: 2.5px;
+      
+       
+        
+    }
+    .contenido3 .end{
+        font-size: 10px;
+      position: relative;
+      right: 58px;
+  
+     
+       
+    }
+    
+}
+

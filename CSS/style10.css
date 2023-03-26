@@ -1,0 +1,125 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+    }
+    .contenedor1{
+        display: flex;
+    width: 100%;
+    height: 20vh;
+    
+    align-items: center;
+    
+    background-color: aquamarine;
+    }
+    .contenido
+    {
+        display: flex;
+    width: 20%;
+    height:100% ;
+    
+    justify-content: center;
+    align-items: center;
+    margin-left: 4.1%;
+    
+    background-color: aqua;
+    
+    }
+    .contenido .nav_logo .img_logo{
+        width: 100%;
+        height: 80%;
+      background-color: blue;
+    
+    
+    }
+    .contenido2{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: row-reverse;
+width: 80%;
+height: 100%;
+background-color: darkcyan;
+
+    }
+    .contenido2 .search_bar{
+display: flex;
+align-items: center;
+justify-content: space-around;
+width: 90%;
+height: 40%;
+background-color: brown;
+border-radius: 40px;
+
+    }
+    .search_bar .bar{
+display: flex;
+width: 60%;
+height: 70%;
+background-color: aquamarine;
+
+border-radius: 8px;
+
+
+    }
+    .bar .d-flex .form-control{
+width: 62.5vh;
+
+
+    }
+    .d-flex .boton-4{
+        width: 15%;
+background: none;
+border: none;
+
+
+    }
+    .boton-4:hover{
+        transition: 1s;
+background: orange;
+border-radius: 60px;
+
+
+    }
+.d-flex .lupa{
+width: 100%;
+height: 100%;
+
+
+}
+    .search_bar .publicity_container{
+display: flex;
+width: 20%;
+height: 70%;
+background-color: aquamarine;
+
+
+
+
+    }
+    .search_bar .carrito_container{
+        display: flex;
+        width: 10%;
+        height: 80%;
+        background-color: aquamarine;
+ justify-content: center;
+ align-items: center;
+
+
+
+    }
+    
+     
+       .links .bi{  
+     
+     width: 100%;
+     height: 100%;
+        text-decoration: none;
+    }
+    .bi:hover{
+transition: 1s;
+        background: orange;
+        border-radius: 90px;
+    }

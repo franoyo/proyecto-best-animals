@@ -1,0 +1,282 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    }
+      @font-face{
+        font-family:hatton;
+        src: url(../fuentes/PP\ Hatton\ Medium\ 500.otf);
+               }
+.maincontainer{
+    display: flex;
+    flex-direction: row;
+width: 100%;
+height: 100vh;
+
+
+
+
+
+
+
+}
+.maincontainer .cont1{
+    display: flex;
+    width: 40vh;
+    height: 100%;
+    background-color: #313e54;
+flex-direction: column;
+align-items: center;
+
+
+
+
+}
+.cont1 .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+width: 100%;
+height: 25vh;
+background-color: #313e54;
+
+
+}
+.logo .best{
+    width: 90%;
+height: 60%;
+
+
+
+}
+.cont1 .dash{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+width: 80%;
+height: 11.11%;
+
+
+background-color: #313e54;
+
+
+
+
+
+
+    
+}
+.dash:hover{
+    transition: 0.5s;
+background-color: rgb(13, 105, 117);
+
+
+
+}
+.cont1 .linea{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 3px;
+}
+
+    .cont1 .ins {
+text-decoration: none;
+
+    }
+    .cont1 .b{
+color: white;
+width: 100%;
+
+    }
+    .cont1 .t1{
+        display: flex;
+width: 100%;
+height: 20%;
+font-size: larger;
+font-family: hatton;
+color: beige;
+
+
+
+    }
+    .maincontainer .cont2{
+
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        height: 100vh;
+       
+
+
+    }
+    .cont2 .subuser{
+        display: flex;
+        
+        align-items: center;
+width: 100%;
+height: 15vh;
+
+
+    }
+    .subuser .mitad{
+        display: flex;
+       align-items: center;
+width: 50%;
+height: 15vh;
+
+
+    }
+
+    .mitad .admn{
+       
+width: 100%;
+height: 20%;
+
+margin-left: 5vh;
+font-family: hatton;
+
+    }
+    .mitad .user{
+width: 70%;
+height: 7vh;
+margin-left: 5vh;
+
+
+
+    }
+
+
+
+    .subuser .mitad2{
+        width: 50%;
+height: 15vh;
+display: flex;
+flex-direction: row-reverse;
+align-items: center;
+
+
+
+    }
+    .mitad2 .button{
+        width: 14%;
+height: 6vh;
+margin-right: 3vh;
+background: none;
+border: solid orange;
+color: #268ecd;
+font-size: 20px;
+font-family: hatton;
+
+    }
+    .button:hover{
+        transition: 1s;
+background-color: orange;
+
+
+    }
+
+   .cont2 .cont3{
+    display: flex;
+flex-direction: row;
+width: 100%;
+height: 100%;
+background-color: #f6f6f6;
+
+
+
+   }
+   .cont3 .menumin{
+    display: flex;
+width: 10%;
+height: 100%;
+background-color: darkgray;
+
+
+   }
+   .modify-buttons .create{
+    width: 90%;
+    height: 10%;
+    margin-top: 64%;
+   margin-bottom: 15%;
+    border: none;
+    background-color: #313e54;
+    color: white;
+    font-family: hatton;
+    
+    
+    
+       }
+       .create:hover{
+        transition: 0.5s;
+      
+        background-color: rgb(13, 105, 117);
+        padding: 30%;
+       
+         }
+       .modify-buttons .search{
+       
+        width: 90%;
+        height: 10%;
+        font-family: hatton;
+        border: none;
+        background-color: #313e54;
+        color: white;
+        
+        
+        
+           }
+           .search:hover{
+            transition: 0.5s;
+    
+      background-color: rgb(13, 105, 117);
+      padding: 30%;
+           }
+          
+   .cont3 .content_a{
+display: flex;
+flex-direction: column;
+width: 100%;
+height: 100%;
+
+
+
+
+   }
+   .content_a .row_a{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+    
+
+   }
+   .content_a .row_b{
+display: flex;
+align-items: center;
+justify-content: center;
+width: 50%;
+height: 100%;
+
+
+   }
+   .row_b .put_graphics{
+display: flex;
+width: 90%;
+height: 90%;
+background-color: white;
+border: solid #268ecd;
+
+
+   }
+   .cont3 .put_graphics2{
+    display: flex;
+    width: 50%;
+    height: 90%;
+    background-color: white;
+    border: solid #268ecd;
+
+
+   }
