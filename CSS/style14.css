@@ -93,7 +93,7 @@ width: 100%;
         display: flex;
 width: 100%;
 height: 20%;
-font-size: 2.5vh;
+font-size: 2.35vh;
 color: beige;
 font-family:hatton;
 
@@ -192,7 +192,7 @@ height: 100%;
    }
    .cont3 .menumin{
     display: flex;
-    flex-direction: column;
+    
 width: 10%;
 height: 100%;
 background-color: darkgray;
@@ -201,31 +201,35 @@ background-color: darkgray;
    }
    .modify-buttons .create{
     width: 90%;
-    height: 20%;
-    font-family:hatton;
+    height: 7vh;
     margin-top: 64%;
    margin-bottom: 15%;
+   font-size: 1.5vh;
+   justify-content: center;
+   align-items: center;
     border: none;
     background-color: #313e54;
     color: white;
-    font-size: 2vh;
+    font-family: hatton;
     
     
     
        }
        .create:hover{
-      transition: 0.5s;
-    
-      background-color: rgb(13, 105, 117);
-      padding: 30%;
-     
-       }
+        transition: 0.5s;
+      
+        background-color: rgb(13, 105, 117);
+        padding: 30%;
+       
+         }
        .modify-buttons .search{
        
         width: 90%;
-        height: 20%;
-        font-family:hatton;
-       font-size: 2vh;
+        height: 7vh;
+        font-size: 1.5vh;
+   
+        font-family: hatton;
+        margin-bottom: 15%;
         border: none;
         background-color: #313e54;
         color: white;
@@ -239,23 +243,56 @@ background-color: darkgray;
       background-color: rgb(13, 105, 117);
       padding: 30%;
            }
-           .modify-buttons .resetear{
-            width: 90%;
-            height: 20%;
-             font-family:hatton;
-           margin-top: 100%;
-            border: none;
-            background-color: #313e54;
-            color: white;
-font-size: 2vh;
+          
+  .modify-buttons .categoria{
+    width: 90%;
+    height: 7vh;
+    font-size: 1.5vh;
+    font-family: hatton;
+    margin-bottom: 15%;
+    border: none;
+    background-color: #313e54;
+    color: white;
+    
 
-           }
-           .resetear:hover{
-            transition: 0.5s;
-            background-color: rgb(13, 105, 117);
-            padding: 30%;
 
-           }
+  }
+  .categoria:hover{
+
+    transition: 0.5s;
+    
+    background-color: rgb(13, 105, 117);
+    padding: 30%
+
+
+
+  } 
+  .modify-buttons .vencimiento{
+
+
+    width: 90%;
+    height: 7vh;
+    font-family: hatton;
+    font-size: 1.5vh;
+    margin-bottom: 15%;
+    border: none;
+    background-color: #313e54;
+    color: white;
+    
+
+
+
+  }
+  .vencimiento:hover{
+    display: flex;
+    transition: 0.5s;
+    
+    background-color: rgb(13, 105, 117);
+    padding: 30%
+
+
+
+  }
            .cont3 .container_form_external{
             display: flex;
             justify-content: center;
