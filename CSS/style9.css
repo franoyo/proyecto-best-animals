@@ -81,7 +81,7 @@ background-size: contain;
     }
     .contletras .maintitle{
         font-family:hatton ;
-        font-size: 60px;
+        font-size: 8vh;
         color: #d9862c;
 
     }
@@ -123,7 +123,7 @@ height: 20%;
     .tituloo .dentro{
     
         font-family:hatton ;
-        font-size: 30px;
+        font-size: 4vh;
         color: #278fce;
       text-decoration: none;
 
