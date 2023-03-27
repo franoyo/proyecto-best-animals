@@ -296,7 +296,7 @@ background-color: orange;
         flex-direction: column;
 width: 100%;
 height: 100%;
-background-color: #005bf8;
+
 
 
       }
@@ -304,7 +304,7 @@ background-color: #005bf8;
 display: flex;
 width: 100%;
 height: 20%;
-background-color: brown;
+
 
 
 
@@ -313,7 +313,7 @@ background-color: brown;
 display: flex;
 width: 25%;
 height: 100%;
-background-color: darkgreen;
+
 justify-content: center;
 align-items: center;
 
@@ -382,7 +382,7 @@ width: 100%;
 height: 15%;
 display: flex;
 
-background-color: aquamarine;
+
 align-items: center;
 
 
@@ -398,6 +398,17 @@ margin-left: 3%;
 width: 40%;
 height: 50%;
 background-color: coral;
+
+
+      }
+      .enter_code .buscador{
+width: 100%;
+height: 100%;
+background: none;
+font-size: 2vh;
+font-family: hatton;
+outline: none;
+color: white;
 
 
       }
@@ -422,7 +433,7 @@ background-color: #268ecd;
         flex-direction: row;
 width: 100%;
 height: 65%;
-background-color: bisque;
+
 
       }
       .container_3 .kont_1{
@@ -432,7 +443,7 @@ height: 100%;
 justify-content: center;
 align-items: center;
 
-background-color: brown;
+
 
       }
       .kont_1 .cont_caja{
@@ -440,7 +451,7 @@ display: flex;
 flex-direction: column;
 width: 95%;
 height: 95%;
-background-color: darkgoldenrod;
+
 border-left: solid black;
 border-top: solid black;
 border-bottom: solid black;
@@ -450,7 +461,7 @@ border-bottom: solid black;
         display: flex;
 width: 100%;
 height: 12%;
-background-color: darkgreen;
+
 
 
       }
@@ -482,20 +493,13 @@ font-size: 1.8vh;
 
       }
 
-      .container_3 .kont{
-display: flex;
-width:35%;
-height: 100%;
-background-color: crimson;
-
-
-      }
+      
       .cont_caja .cont_planilla{
 display: flex;
 display: flex;
 width: 100%;
 height: 8%;
-background-color: darkgreen;
+
 
 
 
@@ -538,3 +542,90 @@ border-top: solid black;
 overflow: hidden;
 
       }
+      .container_3 .kont{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width:35%;
+        height: 100%;
+      
+        
+        
+              }
+              .kont .kont1{
+                display: flex;
+                flex-direction: column;
+width: 85%;
+                height: 30%;
+
+border: solid black;
+
+              }
+              .kont1 .text_price{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+width: 100%;
+height: 60%;
+
+font-family: hatton;
+font-size: 3.2vh;
+
+
+
+              }
+              .kont1 .ingresar_valor_final{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+width: 100%;
+height: 40%;
+
+font-family: hatton;
+font-size: 3.2vh;
+
+
+
+              }
+              .kont1 .pon_titulo{
+                display: flex;
+            
+             align-items: center;
+width: 100%;
+height: 20%;
+
+font-family: hatton;
+font-size: 2vh;
+
+
+              }
+              .kont1 .botones{
+                display:flex;
+width: 100%;
+height: 40%;
+
+justify-content: center;
+align-items: center;
+
+
+
+              }
+              .botones .bi{
+width: 90%;
+height: 80%;
+font-size: 2.5vh;
+font-family: hatton;
+background: none;
+border: solid black;
+
+
+              }
+              .bi:hover{
+background-color: #268ecd;
+transition: 0.5s;
+
+
+              }
