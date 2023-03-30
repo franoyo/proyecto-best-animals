@@ -77,13 +77,11 @@ height: 55vh;
         
        align-items: center;
   
-   margin-left: 110px; 
-   margin-right: 110px;
     width: 50vh;
    height:50vh ;
    justify-content: center;
-border-style: solid ;border-width: 15px;
-   border-radius: 80px;
+border-style: solid ;border-width: 2vh;
+   border-radius: 10vh;
    border-color: #d9d9d9;
    
 
@@ -92,10 +90,12 @@ border-style: solid ;border-width: 15px;
     display: flex;
 width: 80%;
 height: 15%;
-margin: 10px;
-border-radius: 10px;
+margin: 1vh;
+border:0.4vh solid;
+border-radius: 1vh;
 font-family: hatton;
 font-size: 3vh;
+
 
 
 }
@@ -104,10 +104,10 @@ display: flex;
 align-items: center;
 justify-content: center;
     background-color: #d9862c;
-    width: 250px;
-    height: 60px;
+    width: 30vh;
+    height: 8vh;
     border: none;
-    border-radius: 40px;
+    border-radius: 3vh;
     color: white;
     font-size: 4vh;
 }
@@ -127,11 +127,16 @@ justify-content: center;
 align-items: center;
 
 
+
 }
 .cont2 .sesion{
     font-family: hatton;
 color: #2e8dc6;
 font-size:4.5vh;
+
+}
+.cont2 .not_account{
+font-size: 1.8vh;
 
 }
 .regist {
@@ -164,127 +169,10 @@ color: #d9862c;
 
 
        }
+       .fn .endtext{
+font-size: 2vh;
 
-       @media(max-width:1200px){
-        .org{
-            display: flex;
-        
-        
-            width: 100%;
-            height: 20vh;
-            
-            justify-content: center;
-        
-            }
-          .cont{
-        
-            display: flex;
-            align-items: center;
+       }
+
            
-        
-          }
-          .cont .img11{
-                width: 300px;
-                height: 130px;
-                
-                
-            }
-            .ins{
-                display: flex;
-         justify-content: center;
-         align-items: center;
-            
-                width: 100%;
-                height: 70vh;
-            
-          
-              
-        
-        
-               }
-               .ins .perro{
-                width: 40vh;
-        height: 55vh;
-        
-        
-               }
-               .ins .gato{
-                width: 40vh;
-                height: 55vh;
-        
-               }
-               
-               .cont2{
-                background-color: white;
-                display: flex;
-                padding: 0;
-               
-                flex-direction: column;
-                
-               align-items: center;
-          
-           margin-left: 110px; 
-           margin-right: 110px;
-            width: 50vh;
-           height:50vh ;
-           justify-content: center;
-        border-style: solid ;border-width: 15px;
-           border-radius: 80px;
-           border-color: #d9d9d9;
-           
-        
-        }
-        .correo{
-        width: 80%;
-        height: 15%;
-        margin: 10px;
-        border-radius: 10px;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-size: 20px;
-        
-        
-        }
-        .cont2 .boton{
-        
-            background-color: #d9862c;
-            width: 200px;
-            height: 40px;
-            border: none;
-            border-radius: 40px;
-            color: white;
-            font-size: 30px;
-        }
-        
-        
-        
-        .cont2 .sesion{
-        color: #2e8dc6;
-        font-size:25px
-        
-        }
-        .regist {
-        color: #d9862c;
-        
-        
-        
-        
-        }
-        
-        
-        
-        
-        
-        
-        
-               .fn{
-                display: flex;
-            
-            justify-content: center ;
-          
-           ;    width: 100%;
-                height: 10vh;
-                background-color: #268ecd
-        
-        
-               }      }
        
