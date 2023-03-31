@@ -110,9 +110,10 @@ justify-content: center;
     border-radius: 3vh;
     color: white;
     font-size: 4vh;
+    transition: 0.5s;
 }
 .boton:hover{
-    transition: 0.5s;
+    
 background-color: #268ecd;
 
 

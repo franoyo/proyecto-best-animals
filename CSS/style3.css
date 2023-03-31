@@ -91,11 +91,11 @@ font-size: 5vh;
 color: #268ecd;
 background: none;
 border: none;
-
+transition: 0.5s;
 
         }
         .reg1:hover{
-            transition: 0.5s;
+           
 background-color: orange;
 border: solid orange;
 border-radius: 6vh;

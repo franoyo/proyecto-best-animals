@@ -126,12 +126,12 @@ height: 20%;
         font-size: 4vh;
         color: #278fce;
       text-decoration: none;
-
+      transition: 1s;
 
     }
     .dentro:hover{
 background-color: orange;
-transition: 1s;
+
 border-radius: 35px;
 
     }
@@ -148,12 +148,13 @@ height: 100%;
     .contimages .photosurl{
 width: 90%;
 height: 70%;
-
+transition: 0.54s;
 box-shadow:10px 5px 5px  black;
+
     }
     .photosurl:hover{
-        transition: 0.54s;
-    border:7px solid #278fce;
+        
+    border:1vh solid #278fce;
     }
     .photosurl .kaw{
 width: 100%;

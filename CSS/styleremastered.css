@@ -68,14 +68,15 @@ width: 50%;
 height: 45%;
 
 margin-bottom: 1.2vh;
+transition: 0.5s;
 
 
 
 }
 .put_botones:hover{
-    transition: 0.5s;
-    padding: 1vh;
-border: 1vh solid #278FCE ;
+    
+  padding: 1vh;
+border: 1vh solid #278FCE;
 
 
 }
@@ -159,11 +160,11 @@ color: white;
 font-family: hatton;
 
 font-size: 2.5vh;
-
+transition: 0.5s;
 
 }
 .boton_mascotas:hover{
-   transition: 0.5s;
+   
 background-color: rgb(245, 131, 24);
 color: #278FCE;
 border-radius: 8vh;
@@ -216,11 +217,11 @@ width: 20%;
 height: 65%;
 
 margin-left: 1vh;
-
+transition: 1s;
 
 }
 .put_red:hover{
-    transition: 1s;
+    
 
 transform: rotate(360deg);
 

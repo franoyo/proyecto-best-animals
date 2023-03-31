@@ -59,7 +59,7 @@ height: 11.11%;
 
 
 background-color: #313e54;
-
+transition: 0.5s;
 
 
 
@@ -68,7 +68,7 @@ background-color: #313e54;
         
     }
     .dash:hover{
-        transition: 0.5s;
+        
 background-color: rgb(13, 105, 117);
 
 
@@ -172,10 +172,10 @@ color: #268ecd;
 font-size: 20px;
 font-family: hatton;
 font-size: 2.5vh;
-
+transition: 1s;
     }
     .button:hover{
-        transition: 1s;
+        
 background-color: orange;
 
 
@@ -211,12 +211,12 @@ background-color: darkgray;
     background-color: #313e54;
     color: white;
     font-family: hatton;
-    
+    transition: 0.5s;
     
     
        }
        .create:hover{
-        transition: 0.5s;
+        
       
         background-color: rgb(13, 105, 117);
         padding: 30%;
@@ -233,12 +233,12 @@ background-color: darkgray;
         border: none;
         background-color: #313e54;
         color: white;
-        
+        transition: 0.5s;
         
         
            }
            .search:hover{
-            transition: 0.5s;
+            
     
       background-color: rgb(13, 105, 117);
       padding: 30%;
@@ -253,13 +253,13 @@ background-color: darkgray;
     border: none;
     background-color: #313e54;
     color: white;
-    
+    transition: 0.5s;
 
 
   }
   .categoria:hover{
 
-    transition: 0.5s;
+   
     
     background-color: rgb(13, 105, 117);
     padding: 30%
@@ -278,14 +278,14 @@ background-color: darkgray;
     border: none;
     background-color: #313e54;
     color: white;
-    
+    transition: 0.5s;
 
 
 
   }
   .vencimiento:hover{
     display: flex;
-    transition: 0.5s;
+   
     
     background-color: rgb(13, 105, 117);
     padding: 30%
@@ -511,11 +511,11 @@ background-color: darkgray;
     background: none;
     font-family: hatton;
     font-size: 3vh;
-    
+    transition: 0.5s;
     
         }
         .votones:hover{
-    transition: 0.5s;
+   
     background-color: orange;
     border: solid orange;
     border-radius: 40px;

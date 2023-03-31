@@ -60,7 +60,7 @@ height: 11.11%;
 
 
 background-color: #313e54;
-
+transition: 0.5s;
 
 
 
@@ -69,7 +69,7 @@ background-color: #313e54;
     
 }
 .dash:hover{
-    transition: 0.5s;
+   
 background-color: rgb(13, 105, 117);
 
 
@@ -169,10 +169,10 @@ color: #268ecd;
 font-size: 20px;
 font-size: 2vh;
 font-family: hatton;
-
+transition: 1s;
     }
     .button:hover{
-        transition: 1s;
+        
 background-color: orange;
 
 
@@ -209,12 +209,12 @@ background-color: orange;
         background-color: #313e54;
         color: white;
         font-family: hatton;
-        
+        transition: 0.5s;
         
         
            }
            .create:hover{
-            transition: 0.5s;
+            
           
             background-color: rgb(13, 105, 117);
             padding: 30%;
@@ -231,12 +231,12 @@ background-color: orange;
             border: none;
             background-color: #313e54;
             color: white;
-            
+            transition: 0.5s;
             
             
                }
                .search:hover{
-                transition: 0.5s;
+                
         
           background-color: rgb(13, 105, 117);
           padding: 30%;
@@ -419,11 +419,11 @@ background:none;
 font-family: hatton;
 font-size: 2.2vh;
 margin-left: 3%;
-
+transition: 0.5s;
 
       }
       .siu:hover{
-        transition: 0.5s;
+        
 background-color: #268ecd;
 
 
@@ -620,12 +620,12 @@ font-size: 2.5vh;
 font-family: hatton;
 background: none;
 border: solid black;
-
+transition: 0.5s;
 
               }
               .bi:hover{
 background-color: #268ecd;
-transition: 0.5s;
+
 
 
               }
