@@ -8,6 +8,7 @@
     <title>iniciar sesion</title>
     
 </head>
+
 <body>
     <header class="org">
         <div class="cont">
@@ -20,14 +21,16 @@
        
         
 <div class="cont2">
-  <form class="formu" action="dashaboard_admin_productos.html" method="get">
+  <form class="formu" action="login_roles.php" method="post">
     <p class="sesion">INICIAR SESION</p>
+    
+    
 
     <input class="correo" type="email" name="correo" id="correo" placeholder="ej:example@gmail.com" required>
     
-    <input class="correo"  type="password" name="password" placeholder="Ingrese su contraseña:" required>
+    <input class="correo"  type="password" name="contraseña" placeholder="Ingrese su contraseña:" required>
     <br>
-    <input class="boton" id="iniciar sesion"  type="submit" value="iniciar sesion">
+    <input class="boton" id="iniciar sesion" name="ingresar"  type="submit" value="iniciar sesion">
 </form>
     <p class="not_account">¿No tiene cuenta? <a class="regist" href="registrarse.html">registrese aqui</a></p>
 <p class="not_account" >¿olvido su contraseña?<a class="coloru" href="">haga click aqui para recuperarla</a></p>

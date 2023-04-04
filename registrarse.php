@@ -20,13 +20,16 @@ $celular= $_POST['celular_registro'];
 $direccion = $_POST['direccion_registro'];
 $ciudad = $_POST['ciudad_registro'];
 $email = $_POST['email_registro'];
-
+$pass= $_POST['password_registro'];
 // Prepara la consulta SQL para insertar los datos en la tabla
-$sql = "INSERT INTO registros(nombre, apellidos, documento, celular, direccion, ciudad, email) VALUES ('$nombre','$apellido','$documento','$celular','$direccion','$ciudad','$email')";
+$sql = "INSERT INTO usuario(nombre, apellidos, documento, celular, direccion, ciudad, email, clave) VALUES ('$nombre','$apellido','$documento','$celular','$direccion','$ciudad','$email','$pass')";
 
 // Ejecuta la consulta SQL y verifica si se insertaron los datos correctamente
 if ($conn->query($sql) === TRUE) {
-    echo "Los datos se han guardado correctamente en la base de datos";
+    
+    header('location:registrosatisfactorio.html');
+    
+    die();
 } else {
     echo "Ha habido un error al guardar los datos en la base de datos: " . $conn->error;
 }
