@@ -161,6 +161,10 @@ align-items: center;
 
     }
     .mitad2 .button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
         width: 14%;
 height: 6vh;
 margin-right: 3vh;
@@ -170,6 +174,10 @@ color: #268ecd;
 font-size: 2vh;
 font-family: hatton;
 transition: 1s;
+    }
+    #cate{
+width: 100%;
+
     }
     .button:hover{
         
