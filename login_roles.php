@@ -24,8 +24,8 @@ if ($filas) {
     
     <?php
 
-    header("location:login.html");
-   
+    include("login_wrong.php");
+    echo '<script>window.alert("USUARIO NO ENCONTRADO")</script>';
     ?>
     
    

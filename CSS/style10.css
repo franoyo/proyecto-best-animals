@@ -2,8 +2,12 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow: hidden;
     
-    
+    }
+    @font-face {
+        font-family:hatton ;
+        src: url(../fuentes/PP\ Hatton\ Medium\ 500.otf);
     }
     .contenedor1{
         display: flex;
@@ -12,7 +16,7 @@ body{
     
     align-items: center;
     
-    background-color: aquamarine;
+   
     }
     .contenido
     {
@@ -24,13 +28,13 @@ body{
     align-items: center;
     margin-left: 4.1%;
     
-    background-color: aqua;
+    
     
     }
     .contenido .nav_logo .img_logo{
         width: 100%;
         height: 80%;
-      background-color: blue;
+     
     
     
     }
@@ -41,7 +45,7 @@ align-items: center;
 flex-direction: row-reverse;
 width: 80%;
 height: 100%;
-background-color: darkcyan;
+
 
     }
     .contenido2 .search_bar{
@@ -50,7 +54,7 @@ align-items: center;
 justify-content: space-around;
 width: 90%;
 height: 40%;
-background-color: brown;
+background-color: #268CCA;
 border-radius: 40px;
 
     }
@@ -58,17 +62,28 @@ border-radius: 40px;
 display: flex;
 width: 60%;
 height: 70%;
-background-color: aquamarine;
+
 
 border-radius: 8px;
 
 
     }
-    .bar .form-control{
-width: 55vh;
+    .bar .d-flex{
+        display: flex;
+        width: 100%;
+                
+            }
+    .d-flex .form-control{
+        display: flex;
+        font-family: hatton;
+width: 100%;
+height: 100%;
+font-size: 2vh;
 
 
     }
+    
+   
     .d-flex .boton-4{
         width: 15%;
         height: 100%;
@@ -85,6 +100,7 @@ border-radius: 60px;
 
     }
 .d-flex .lupa{
+    display: flex;
 width: 100%;
 height: 100%;
 
@@ -92,19 +108,86 @@ height: 100%;
 }
     .search_bar .publicity_container{
 display: flex;
+justify-content: center;
+align-items: center;
 width: 20%;
 height: 70%;
-background-color: aquamarine;
-
+background-color:orange;
+font-family: hatton;
+color:white;
 
 
 
     }
+    .publicity_container .lista{
+        display: flex;
+        flex-direction: column;
+       
+        margin: 0;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+list-style: none;
+
+font-size: 2.5vh;
+
+    }
+    .lista .tele{
+text-decoration: none;
+color: white;
+
+    }
+    .lista .lista1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: white;
+position: absolute;
+width: 12%;
+margin: 0;
+padding: 0;
+background: linear-gradient(90deg, rgba(255,145,77,1) 40%, rgba(255,184,0,1) 59%, rgba(255,149,0,0.6250875350140056) 100%);
+top: 12.8%;
+left: 110%;
+font-size: 2.5vh;
+list-style: none;
+transition: 0.2s;
+display: flex;
+    }
+    .lista1 .mini-container{
+
+width: 100%;
+transition: 1s;
+    }
+    .mini-container:hover{
+background-color: chartreuse;
+
+    }
+    .lista1 .list{
+        text-decoration: none;
+        color: white;
+
+    }
+   
+.lista:hover .lista1{
+   
+
+left: 73%;
+   
+   
+
+
+}
+   
     .search_bar .carrito_container{
         display: flex;
         width: 10%;
         height: 80%;
-        background-color: aquamarine;
+      
  justify-content: center;
  align-items: center;
 
@@ -112,15 +195,109 @@ background-color: aquamarine;
 
     }
     
-     
+     .links{
+display: flex;
+
+width: 100%;
+height: 100%;
+transition: 1s;
+     }
+     .links:hover{
+
+
+background-color: orange;
+border-radius: 6vh;
+
+     }
        .links .bi{  
      
      width: 100%;
      height: 100%;
-        text-decoration: none;
+        
     }
-    .bi:hover{
-transition: 1s;
-        background: orange;
-        border-radius: 90px;
+    .space{
+        display: flex;
+        align-items: center;
+        font-size: 4vh;
+        font-family: hatton;
+        color: deepskyblue;
+        padding-left: 4.5%;
+width: 100%;
+height: 15vh;
+background-color: green;
+
     }
+   .container-cards{
+display: flex;
+width: 100%;
+height: 55vh;
+background-color: darkcyan;
+
+
+   }
+   .container-cards .put-button{
+display: flex;
+width: 5%;
+height: 100%;
+background-color: darkkhaki;
+justify-content: center;
+align-items: center;
+
+   }
+   .put-button .botoncito-izq{
+width: 90%;
+height: 15%;
+border-radius: 100%;
+border: none;
+font-size: 5vh;
+color: blue;
+background-color: #FF914D;
+transition: 0.5s;
+
+   }
+   .botoncito-izq:hover{
+background-color: dodgerblue;
+
+   }
+   .put-button .botoncito-derecho{
+    width: 90%;
+    height: 15%;
+    border-radius: 100%;
+    border: none;
+    font-size: 5vh;
+    color: blue;
+    background-color: #FF914D;
+    transition: 0.5s;
+    
+       }
+       .botoncito-derecho:hover{
+    background-color: dodgerblue;
+    
+       }
+
+   .container-cards .put-cards{
+
+
+align-items: center;
+width: 90%;
+height: 100%;
+background-color: greenyellow;
+overflow: hidden;
+scroll-behavior: smooth;
+   }
+   .put-cards .slider{
+display: flex;
+justify-content: space-around;
+margin-top: 5%;
+width: 300%;
+height: 75%;
+background-color: crimson;
+   }
+   .slider .cards
+   {
+    display: flex;
+
+width: 22vh;
+height: 100%;
+border: solid black;
+   }
