@@ -1,6 +1,6 @@
 <?php
 header("Cache-Control: no-cache, must-revalidate"); // HTTP/1.1
-header("Expires: Sat, 1 Jul 2023 05:15:00 GMT"); // Fecha en el pasado
+header("Expires: Sat, 1 Jul 2024 05:15:00 GMT"); // Fecha en el pasado
 error_reporting(E_ALL ^ E_WARNING);
 $user=$_POST['correo'];
 $contraseña=$_POST['contraseña'];
@@ -24,11 +24,15 @@ if ($filas) {
     
     <?php
 
-    include("login_wrong.php");
-    echo '<script>window.alert("USUARIO NO ENCONTRADO")</script>';
+    
+
+include("modal.php");
+
+
+  
     ?>
     
-   
+ 
     <?php
     
 }

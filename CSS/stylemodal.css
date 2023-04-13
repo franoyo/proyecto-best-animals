@@ -1,15 +1,13 @@
 body{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-
+margin: 0;
+padding: 0;
+box-sizing: border-box;
 
 }
 @font-face{
     font-family:hatton;
     src: url(../fuentes/PP\ Hatton\ Medium\ 500.otf);
            }
-
 .modal-container{
     display: flex;
 position: fixed;
@@ -21,15 +19,15 @@ align-items: center;
 width: 100vw;
 height: 100vh;
 background-color: rgba(110, 142, 146, 0.3); 
-opacity: 0;
-pointer-events: none;
+opacity: 1;
+
 transition: 0.5s;
 
 }
-.mostrar{
-    pointer-events: auto;
-opacity: 1;
-
+.cerrar{
+    pointer-events: none;
+opacity: 0;
+transition: 0.5s;
 
 }
 .modal-container .modal{
@@ -48,6 +46,7 @@ border-radius: 2vw;
 
 
 
+
 }
 .modal .visto{
     display: flex;
@@ -60,7 +59,7 @@ border: none;
 background-color: #268ecd;
 border-radius: 2vw;
 transition: 0.6s;
-
+cursor: pointer;
 
 }
 .visto:hover{
@@ -68,10 +67,6 @@ background-color: #d9862c;
 
 
 }
-
-
-
-
 .org{
     display: flex;
 justify-content: center;
@@ -235,56 +230,68 @@ color: #d9862c;
 font-size: 2vh;
 
        }
-@media(orientation:portrait){
-    .modal-container .modal{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
+       @media(orientation:portrait){
+        .modal-container .modal{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+            text-align: center;
+            width: 50vw;
+            height: 20vh;
+            border: solid red;
+            font-family: hatton;
+            font-size: 4vw;
+            background-color: white;
+            border-radius: 2vw;
+            
+            
+            
+            }
+            .modal .visto{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            width:9vw ;
+            height: 4vh;
+            font-size: 2vw;
+            border: none;
+            background-color: #268ecd;
+            border-radius: 10vw;
+            transition: 0.6s;
+            cursor: pointer;
+            
+            }
+        .org{
+            display: flex;
+        justify-content: center;
         align-items: center;
-        text-align: center;
-        width: 50vw;
-        height: 20vh;
-        border: solid red;
-        font-family: hatton;
-        font-size: 2vw;
-        background-color: white;
-        border-radius: 2vw;
         
-        
-        
-        }
-    .org{
-        display: flex;
-    justify-content: center;
-    align-items: center;
-    
-        width: 100%;
-        height: 20vh;
-        
-       
-    
-        }
-      .org .cont{
-    
-        display: flex;
-        width: 40%;
-        height: 80%;
-       align-items: center;
-       justify-content: center;
-       
-       
-       
-    
-      }
-      .cont .img5{
-    
             width: 100%;
-            height: 100%;
-          
+            height: 20vh;
             
-            
-        }
-
-}
            
-       
+        
+            }
+          .org .cont{
+        
+            display: flex;
+            width: 40%;
+            height: 80%;
+           align-items: center;
+           justify-content: center;
+           
+           
+           
+        
+          }
+          .cont .img5{
+        
+                width: 100%;
+                height: 100%;
+              
+                
+                
+            }
+    
+    }

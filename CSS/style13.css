@@ -23,7 +23,7 @@ height: 100vh;
     }
     .maincontainer .cont1{
         display: flex;
-        width: 40vh;
+        width: 23vw;
         height: 100%;
         background-color: #313e54;
 flex-direction: column;
