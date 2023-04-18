@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>adminiistrador_gestion_operarios</title>
+    <link rel="stylesheet" href="CSS/style20.css">
+</head>
+<body>
+  <div class="container-alerta" id="alert-disp" >
+    
+    <div class="alerta">
+      <div class="contenido-alerta">
+    <div class="alert-image">
+      <img class="perro-alerta" src="img/perro.jpeg" alt="">
+    </div>
+    <div class="text-alert">
+      <p>Datos Ingresados Correctamente!</p>
+    </div>
+    
+      </div>
+    </div>
+    
+      </div>
+
+    <div class="maincontainer">
+        <div class="cont1">
+            <header class="logo">
+              <img class="best" src="img/best animal2-01 (1).png" alt="main">
+            
+            
+            
+            </header>
+            <div class="dash">
+              <a class="ins" href="dashboar_caja_registro.html"><p class="t1">AGENDA</p></a>
+              <div class="linea"></div>
+            
+            
+            
+            </div>
+            
+            <div class="dash">
+            <a class="ins" href="dashoboard_admin_stock.html"><p class="t1">REGISTRO</p></a>
+            <div class="linea"></div>
+            </div>
+            
+            <div class="dash">
+              <a class="ins" href="error400.html"><p class="t1">ESTADISTICAS</p></a>
+              <div class="linea"></div>
+            </div>
+           
+            
+            <div class="dash">
+              <a class="ins" href="error400.html"><p class="t1">HISTORIAS CLINICAS</p></a>
+              <div class="linea"></div>
+            </div>
+            
+            </div>
+            <div class="cont2">
+                <header class="subuser">
+                    <div class="mitad" >     <nav>
+                      <a href=""><img class="user" src="img/buttton.png" alt=""></a>
+                      
+                          </nav> 
+                          <p class="admn">ADMINISTRADOR</p>                </div>
+                    
+                    
+                   
+                
+                <div class="mitad2">
+                  
+                  <a class="button" href="cerrar_sesion.php">SALIR</a> 
+                 
+                
+                
+                </div>
+                </header>
+                <form class="cont3" action="registro_datos_mascota.php" method="post">
+                    <div class="menumin">
+                      <nav class="modify-buttons">
+                        <input class="create" type="button" id="cerrar" value="EDITAR">
+                        <input class="search" id="crear" type="submit" value="CREAR">
+                      
+                        </nav>  
+                    
+                    </div>
+               <div class="contenedor-formulario">
+                <div class="formulario-plantilla">
+<header class="logoz">
+<div class="put-logo">
+  <img class="image" src="img/best animal2-01 (1).png" alt="logo best animals">
+</div>
+
+</header>
+<div class="row-form"><div class="subtitulo"><p>Propietario:</p></div><div class="put-form"><input class="formulario" type="text" name="propietario" pattern="[a-zA-ZñÑ\s\W]{2,100}" required></div>          </div>
+<div class="row-form"><div class="subtitulo"><p>Nombre del paciente:</p></div><div class="put-form"><input class="formulario" type="text" name="paciente" pattern="[a-zA-ZñÑ\s\W]{2,100}" required ></div>      </div>
+<div class="row-form"><div class="subtitulo"><p>Especie:</p></div><div class="enter-radios"> <input class="radio-dimensions" type="radio" id="especie" name="especie" value="canino" checked>
+   <label for="especie">canino</label><input class="radio-dimensions" type="radio" id="especie1" name="especie" value="canino" checked> <label for="especie1">felino</label><input class="radio-dimensions" type="radio" id="especie2" name="especie" value="otro" checked> <label for="especie2">otro</label></div>                   </div>
+<div class="row-form"><div class="subtitulo"><p>Raza:</p></div><div class="form-mini"><input class="sub-form" type="text" name="raza" pattern="[a-zA-ZñÑ\s\W]{2,100}" required></div> <div class="second-subtitle"><p>Edad:</p></div><div class="form-mini"><input class="sub-form" type="text" name="edad" pattern="{2,100}" required></div>                           </div>
+<div class="row-form"><div class="subtitulo"><p>Sexo:</p></div> <div class="form-mini"><input class="radio-dimensions" type="radio" id="genero" name="genero" value="macho" checked><label for="genero">Macho</label> <input class="radio-dimensions" type="radio" id="genero1" name="genero" value="hembra" checked > <label for="genero1">Hembra</label> </div> <div class="second-subtitle">Castrado:</div><div class="form-mini"> <input class="radio-dimensions" type="radio" id="castrado" name="castrado" value="si" checked><label for="castrado">Si</label> <input class="radio-dimensions" type="radio" id="castrado1" name="castrado" value="no" checked > <label for="castrado1">No</label></div>                            </div>
+<div class="row-form"><div class="subtitulo"><p>Historia breve:</p></div><div class="put-form"><input class="formulario" type="text" name="historia_breve" pattern="[a-zA-ZñÑ\s\W]{2,200}" required></div>                       </div>
+<div class="row-form"><div class="subtitulo"><p>Veterinario solicitante:</p></div><div class="put-form"><input class="formulario" name="veterinario" type="text" pattern="[a-zA-ZñÑ\s\W]{2,200}" required></div>                </div>
+<div class="row-form"><div class="subtitulo"><p>Clinica:</p></div><div class="put-form"><input class="formulario" type="text" name="clinica" pattern="[a-zA-ZñÑ\s\W]{2,100}" required></div>                                 </div>
+<div class="row-form"><div class="subtitulo"><p>Fecha:</p></div><div class="put-form"><input class="formulario" type="date" name="Fecha" required></div>                               </div>
+<div class="row-form"><div class="subtitulo"><p>Preparacion del paciente:</p></div><div class="put-form"><input class="formulario" type="text" name="preparacion_paciente" pattern="[a-zA-ZñÑ\s\W]{2,100}" required ></div>                                 </div>
+
+                </div>
+
+                
+</div>
+                    
+</form>
+
+            </div>
+            
+            
+    
+    
+    
+    
+    
+    
+    
+    </div>
+    <script src="slider.js"></script>
+</body>
+</html>

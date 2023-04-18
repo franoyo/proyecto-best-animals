@@ -1,7 +1,9 @@
+ 
  //funcion slider cards/
+
 const izq= document.querySelector(".botoncito-izq")
 const der= document.querySelector(".botoncito-derecho")
-const slider= document.querySelector(".put-cards")
+const slider= document.querySelector(".slider")
 izq.addEventListener('click', ()=>{
 
 slider.scrollLeft-=750
@@ -82,6 +84,9 @@ if (scrollsito<=punto_partida) {
 
 
                })
+                   //deplegar alerta guardado correctamente formulario/
+                   
+                  
               
                 
                 

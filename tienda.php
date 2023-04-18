@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
    
-    <link rel="stylesheet" href="css/style10.css?v=3">
+    <link rel="stylesheet" href="css/style10.css?v=1.51">
     
     <title>tienda</title>
   
@@ -88,17 +88,23 @@
 <form class="put-cards" action="" method="post">
 <div class="slider">
 
+
+<?php
+include("connect_db.php");
+$sql1=$conn->query("SELECT*FROM productos");
+while ($datas=$sql1->fetch_object()) {
+    ?>
 <div class="cards">
     <div class="container-producto">
-        <a class="poner-producto" href=""><img class="imagen-producto" src="img/alimento-perro-removebg-preview.png" alt=""></a>
+        <a class="poner-producto" href=""><img class="imagen-producto" src="<?= $datas->imagen?>" alt="imagen" ></a>
     </div>
-    <div class="poner-descripcion">Alimento para perro hills adulto small bites dry</div>
+    <div class="poner-descripcion"><?= $datas->descripcion?></div>
     <div class="container-peso-producto">
     <button class="peso-function" >5 lb</button>
     <button class="peso-function" >15 lb</button>
     </div>
     <div class="descuento">$87.900</div>
-    <div class="precio">$74.715</div>
+    <div class="precio"><?= $datas->precio?></div>
     <div class="precioporkilo">(kilo $38.722)</div>
     <div class="container-main-buttons">
     <div class="amound-items">
@@ -117,9 +123,9 @@
 
 
 </div>
+   
 <?php
-include ("tarjeta.php")
-
+  }
 ?>
 </div>
 
@@ -131,7 +137,7 @@ include ("tarjeta.php")
     </div>
     
    
-<script src="slider.js?v=1.0"></script>
+<script src="slider.js?v=1.1"></script>
 
    
 </body>

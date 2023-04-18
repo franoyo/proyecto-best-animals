@@ -1,0 +1,378 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #313e54;
+    }
+      @font-face{
+        font-family:hatton;
+        src: url(../fuentes/PP\ Hatton\ Medium\ 500.otf);
+               }
+.maincontainer{
+    display: flex;
+    flex-direction: row;
+width: 130vw;
+height: 120vh;
+background-color: #268ecd;
+
+
+
+
+
+
+
+
+}
+.maincontainer .cont1{
+    display: flex;
+    width: 25vw;
+    height: 100%;
+    background-color: #313e54;
+flex-direction: column;
+align-items: center;
+
+
+
+
+}
+.cont1 .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+width: 100%;
+height: 25vh;
+background-color: #313e54;
+
+
+}
+.logo .best{
+    width: 90%;
+height: 60%;
+
+
+
+}
+.cont1 .dash{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+width: 80%;
+height: 11.11%;
+
+
+background-color: #313e54;
+transition: 0.5s;
+
+
+
+
+
+    
+}
+.dash:hover{
+    
+background-color: rgb(13, 105, 117);
+
+
+
+}
+.cont1 .linea{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 0.3vh;
+}
+
+    .cont1 .ins {
+text-decoration: none;
+
+    }
+    .cont1 .b{
+color: white;
+width: 100%;
+
+    }
+    .cont1 .t1{
+        display: flex;
+width: 100%;
+height: 20%;
+font-size: 2.4vh;
+font-family: hatton;
+color: beige;
+
+
+
+    }
+    .maincontainer .cont2{
+
+        display: flex;
+        flex-direction: column;
+        width: 106VW;
+        height: 140vh;
+       
+
+
+    }
+    .cont2 .subuser{
+        display: flex;
+        
+        align-items: center;
+width: 100%;
+height: 15vh;
+background-color: white;
+
+
+    }
+    .subuser .mitad{
+        display: flex;
+       align-items: center;
+width: 50%;
+height: 15vh;
+
+
+    }
+
+    .mitad .admn{
+       
+width: 100%;
+height: 20%;
+
+margin-left: 5vh;
+font-family: hatton;
+font-size: 2vh;
+
+    }
+    .mitad .user{
+width: 70%;
+height: 7vh;
+margin-left: 5vh;
+
+
+
+    }
+
+
+
+    .subuser .mitad2{
+        width: 50%;
+height: 15vh;
+display: flex;
+flex-direction: row-reverse;
+align-items: center;
+
+
+
+    }
+    .mitad2 .button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        width: 14%;
+height: 6vh;
+margin-right: 3vh;
+background: none;
+border: solid orange;
+color: #268ecd;
+font-size: 2vh;
+font-family: hatton;
+transition: 1s;
+    }
+    #cate{
+width: 100%;
+
+    }
+    .button:hover{
+        
+background-color: orange;
+
+
+    }
+    .cont3{
+        display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    background-color: #f6f6f6;
+    
+    
+    
+       }
+       .cont3 .menumin{
+        display: none;
+    width: 10%;
+    height: 100%;
+    background-color: darkgray;
+    
+    
+       }
+       .modify-buttons .create{
+        width: 90%;
+        height: 10%;
+        margin-top: 64%;
+       margin-bottom: 15%;
+        border: none;
+        background-color: #313e54;
+        color: white;
+        font-family: hatton;
+        font-size: 2vh;
+        transition: 0.5s;
+        
+        
+           }
+           .create:hover{
+            
+          
+            background-color: rgb(13, 105, 117);
+            padding: 30%;
+           
+             }
+           .modify-buttons .search{
+           
+            width: 90%;
+            height: 10%;
+            font-family: hatton;
+            border: none;
+            background-color: #313e54;
+            color: white;
+            font-size: 1.5vh;
+            transition: 0.5s;
+            
+            
+               }
+               .search:hover{
+                
+        
+          background-color: rgb(13, 105, 117);
+          padding: 30%;
+               }
+               .cont3 .contenedor-formulario{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+height: 100%;
+
+
+
+
+               }
+               .maincontainer .container-tabla{
+display: flex;
+flex-direction: column;
+align-items: center;
+
+width: 100%;
+height: 100%;
+
+
+
+               }
+              .crear{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: beige;
+width: 5vw;
+height: 5vw;
+position: fixed;
+border-radius: 50%;
+background-color: green;
+border: none;
+font-size: 5vw;
+cursor: pointer;
+left: 93vw;
+top: 88vh;
+
+               }
+               .container-tabla .insert-title{
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+width: 100%;
+height: 10%;
+font-family: hatton;
+font-size: 4vw;
+
+
+               }
+               .container-tabla .tabla{
+display: flex;
+flex-direction: column;
+align-self: center;
+margin-top: 5vh;
+width: 96%;
+height: 85%;
+background-color: blueviolet;
+
+
+               }
+               .tabla .row-subtitle{
+                display: flex;
+width: 100%;
+height: 5%;
+background-color: #268ecd;
+border-bottom: solid black;
+border-top: solid black;
+border-left: solid black;
+
+
+               }
+               .row-subtitle .subtitle{
+display: flex;
+justify-content: center;
+align-items: center;
+border-right: solid black;
+
+font-family: hatton;
+font-size: 0.8vw;
+text-align: center;
+
+width: 10%;
+height: 100%;
+background-color: #268ecd;
+
+
+               }
+               .tabla .row-empleados{
+
+                display: flex;
+                width: 100%;
+                height: 5%;
+                background-color: cyan;
+                border-left: solid black;
+                border-bottom: solid black;
+
+               }
+               .row-empleados .info{
+                display: flex;
+                border-right: solid black;
+                justify-content: center;
+                align-items: center;
+                font-size: 1vw;
+                font-family: hatton;
+                overflow: hidden;
+                text-align: center;
+                width: 10%;
+                height: 100%;
+                background-color: rgb(247, 166, 112);
+
+
+               }
+               .info .edit-button{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 50%;
+                font-size: 2vw;
+height: 100%;
+border: none;
+background: none;
+transition: 0.3s;
+
+               }
+               .edit-button:hover{
+color: red;
+
+
+               }

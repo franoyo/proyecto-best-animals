@@ -8,6 +8,7 @@ body{
         font-family:hatton;
         src: url(../fuentes/PP\ Hatton\ Medium\ 500.otf);
                }
+             
 .maincontainer{
     display: flex;
     flex-direction: row;
@@ -198,15 +199,21 @@ background-color: #f6f6f6;
    }
    .cont3 .menumin{
     display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 width: 10%;
 height: 100%;
 background-color: darkgray;
 
 
    }
+.desplegar:hover.modify-buttons{
+background-color: aqua;
+
+   }
    .modify-buttons .create{
     width: 90%;
-    height: 10%;
+    height: 30%;
     margin-top: 64%;
    margin-bottom: 15%;
     border: none;
@@ -228,7 +235,7 @@ background-color: darkgray;
        .modify-buttons .search{
        
         width: 90%;
-        height: 10%;
+        height: 30%;
         font-family: hatton;
         border: none;
         background-color: #313e54;
