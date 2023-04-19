@@ -5,10 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>gestion usuarios</title>
-    <link rel="stylesheet" href="CSS/style21.css?=1.2">
+    <link rel="stylesheet" href="CSS/style21.css?=1.42">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
 </head>
 <body>
+<?php
+                    include("ventana_registro_empleados.php")
+
+
+?>
     <div class="maincontainer">
         <div class="cont1">
             <header class="logo">
@@ -65,13 +70,13 @@
                     <div class="menumin">
                       <nav class="modify-buttons">
                         <input class="create" type="button" id="cerrar" value="EDITAR">
-                        <input class="search" id="crear" type="submit" value="CREAR">
+                        <input class="search"  type="submit" value="CREAR">
                       
                         </nav>  
                     
                     </div>
                     <div class="container-tabla">
-                      <button class="crear"><i class="bi bi-plus"></i></button>
+                      <button class="crear" id="create"><i class="bi bi-plus"></i></button>
                     <div class="insert-title">
 <p>GESTION DE EMPLEADOS</p>
 
@@ -111,7 +116,24 @@ while ($data=$sql3->fetch_object()) {
     <div class="info"><?= $data->ciudad   ?></div>
     <div class="info"><?= $data->email   ?></div>
     <div class="info"><?= $data->clave   ?></div>
-    <div class="info"><?= $data->rol_id   ?></div>
+    <div class="info"><?php if ($data->rol_id==1 ) {
+    echo("1. ADMINISTRADOR");
+    }elseif($data->rol_id==2){
+echo("2.USUARIO");
+    }
+    elseif($data->rol_id==3){
+      echo("3.AUXILIAR DE BODEGA");
+          } 
+          elseif($data->rol_id==4){
+            echo("4. VETERINARIO");
+                } elseif($data->rol_id==5){
+                  echo("5.CAJA");
+                      }      
+    
+    
+    
+    
+    ?></div>
     <div class="info"><button  class="edit-button" id="btz"><i class="bi bi-pencil-square"></i></button></div>
     <div class="info"><button class="edit-button"><i class="bi bi-person-x"></i></button></div>
 </div>
@@ -128,6 +150,8 @@ while ($data=$sql3->fetch_object()) {
                     </div>
                     
                     </div>
+                    
+        <script src="script_gestion_usuario.js"></script>            
     
 </body>
 </html>

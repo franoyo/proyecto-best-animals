@@ -282,6 +282,7 @@ font-size: 5vw;
 cursor: pointer;
 left: 93vw;
 top: 88vh;
+transition: 0.5s;
 
                }
                .container-tabla .insert-title{
@@ -299,18 +300,23 @@ font-size: 4vw;
                .container-tabla .tabla{
 display: flex;
 flex-direction: column;
+
 align-self: center;
 margin-top: 5vh;
-width: 96%;
+width: 98%;
 height: 85%;
 background-color: blueviolet;
+overflow: hidden;
+flex-wrap: wrap;
+
+
 
 
                }
                .tabla .row-subtitle{
                 display: flex;
-width: 100%;
-height: 5%;
+                width: 99.8%;
+height: 5vh;
 background-color: #268ecd;
 border-bottom: solid black;
 border-top: solid black;
@@ -337,7 +343,7 @@ background-color: #268ecd;
                .tabla .row-empleados{
 
                 display: flex;
-                width: 100%;
+                width: 99.8%;
                 height: 5%;
                 background-color: cyan;
                 border-left: solid black;

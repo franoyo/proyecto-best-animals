@@ -228,13 +228,13 @@ color: #d9862c;
       width: 100%;
         height: 10vh;
         background-color: #268ecd;
-        font-size: 2vw;
+        font-size: 1vw;
 
 
        }
        .fn .endtext{
-font-size: 2vw;
 
+        font-size: 1vw;
        }
 @media(orientation:portrait){
     .modal-container .modal{
