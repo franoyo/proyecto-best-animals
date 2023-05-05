@@ -54,7 +54,7 @@
 
 
 </footer>
-    <script src="solocerrar.js"></script>
+    <script src="solocerrar.js?v=1.0"></script>
     
 </body>
 

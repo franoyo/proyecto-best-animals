@@ -85,7 +85,7 @@
 <button class="botoncito-izq"><i class="bi bi-caret-left-fill"></i></button>
 
 </div>
-<form class="put-cards" action="" method="post">
+<div class="put-cards">
 <div class="slider">
 
 
@@ -94,35 +94,36 @@ include("connect_db.php");
 $sql1=$conn->query("SELECT*FROM productos");
 while ($datas=$sql1->fetch_object()) {
     ?>
-<div class="cards">
+<form class="cards" action="" method="post">
     <div class="container-producto">
         <a class="poner-producto" href=""><img class="imagen-producto" src="<?= $datas->imagen?>" alt="imagen" ></a>
     </div>
+<input type="hidden" name="id-card" value="<?= $datas->id?>">
     <div class="poner-descripcion"><?= $datas->descripcion?></div>
     <div class="container-peso-producto">
     <button class="peso-function" >5 lb</button>
     <button class="peso-function" >15 lb</button>
     </div>
     <div class="descuento">$87.900</div>
-    <div class="precio"><?= $datas->precio?></div>
+    <div class="precio"><?= $datas->precio?> <input type="hidden" name="Precio" value="<?= $datas->precio?>"></div>
     <div class="precioporkilo">(kilo $38.722)</div>
     <div class="container-main-buttons">
     <div class="amound-items">
     <input class="decrease-button" type="button" value="-" onclick="this.parentNode.querySelector('.mostrar-cantidad').stepDown()">
     
         
-        <input class="mostrar-cantidad" name="cantidad-productos" min="1" max="15" placeholder="1" type="number"  >
+        <input class="mostrar-cantidad" name="cantidad-productos" min="1" max="15" value="1" type="number"  >
        
     
     <input class= "increase-button" type="button" value="+" onclick="this.parentNode.querySelector('.mostrar-cantidad').stepUp()"> 
     </div>
-    <button class="purchase-button" onclick="this.parentNode.querySelector('.pibi');"> COMPRAR</button> 
+    <button class="purchase-button" onclick="this.parentNode.querySelector('.pibi');"> AÑADIR</button> 
     
     </div>
 
 
 
-</div>
+</form>
    
 <?php
   }
@@ -130,7 +131,7 @@ while ($datas=$sql1->fetch_object()) {
 </div>
 
 
-</form>
+</div>
 <div class="put-button">
     <button class="botoncito-derecho"><i class="bi bi-caret-right-fill"></i></button>
 </div>

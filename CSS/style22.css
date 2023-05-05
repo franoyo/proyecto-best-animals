@@ -128,7 +128,7 @@ height: 100%;
 display: flex;
 width: 53%;
 height: 55%;
-
+align-items: center;
 
 border-radius: 1vw;
 }

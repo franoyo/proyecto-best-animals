@@ -8,6 +8,75 @@ body{
         font-family:hatton;
         src: url(../fuentes/PP\ Hatton\ Medium\ 500.otf);
                }
+               .container-alerta{
+                display: flex;
+                width: 100vw;
+                height: 17vh;
+                position: fixed;
+                
+                align-items: center;
+                justify-content: center;
+                opacity: 0;
+                pointer-events: none;
+                
+                transition: 0.35s;
+                
+                
+                               }
+                               .container-alerta .alerta{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 30vw;
+                height: 90%;
+                background-color: white;
+                border: solid #268ecd;
+                border-radius: 2vw;
+                transition: 1.0s;
+                
+                
+                
+                               }
+                               .alerta .contenido-alerta{
+                display: flex;
+                align-items: center;
+                
+                width: 90%;
+                height: 80%;
+                
+                
+                
+                               }
+                               .contenido-alerta .alert-image{
+                                display: flex;
+                width: 30%;
+                height: 80%;
+                
+                
+                
+                               }
+                               .alert-image .perro-alerta{
+                width: 100%;
+                height: 100%;
+                
+                               }
+                               .contenido-alerta .text-alert{
+                                display: flex;
+                width: 70%;
+                height: 80%;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                font-family: hatton;
+                font-size: 1.5vw;
+                               }
+                               .ocultar{
+                                opacity: 1;
+                                pointer-events: auto;
+                                
+                                
+                                
+                                               }
 .maincontainer{
     display: flex;
     flex-direction: row;
@@ -269,9 +338,12 @@ height: 100%;
                }
               .crear{
                 display: flex;
-                justify-content: center;
-                align-items: center;
+               align-items: center;
+               justify-content: center;
+               margin: 0;
+               padding: 0;
                 color: beige;
+                text-align: center;
 width: 5vw;
 height: 5vw;
 position: fixed;
@@ -304,10 +376,11 @@ flex-direction: column;
 align-self: center;
 margin-top: 5vh;
 width: 98%;
-height: 85%;
-background-color: blueviolet;
+height: 80%;
+background-color: #F6F6F6;
 overflow: hidden;
 flex-wrap: wrap;
+scroll-behavior:smooth ;
 
 
 
@@ -316,9 +389,9 @@ flex-wrap: wrap;
                .tabla .row-subtitle{
                 display: flex;
                 width: 99.8%;
-height: 5vh;
+height:5.192%;
 background-color: #268ecd;
-border-bottom: solid black;
+
 border-top: solid black;
 border-left: solid black;
 
@@ -344,7 +417,7 @@ background-color: #268ecd;
 
                 display: flex;
                 width: 99.8%;
-                height: 5%;
+                height:5.192%;
                 background-color: cyan;
                 border-left: solid black;
                 border-bottom: solid black;
@@ -354,6 +427,23 @@ background-color: #268ecd;
                 display: flex;
                 border-right: solid black;
                 justify-content: center;
+            
+                align-items: center;
+                font-size: 1vw;
+                font-family: hatton;
+                overflow: hidden;
+                text-align: center;
+                width: 10%;
+                height: 100%;
+                background-color: rgb(247, 166, 112);
+
+
+               }
+               .row-empleados .info-email{
+                display: flex;
+                border-right: solid black;
+                justify-content: space-between;
+         
                 align-items: center;
                 font-size: 1vw;
                 font-family: hatton;
@@ -371,14 +461,65 @@ background-color: #268ecd;
                 align-items: center;
                 width: 50%;
                 font-size: 2vw;
+                text-decoration: none;
+                color: black;
 height: 100%;
 border: none;
 background: none;
 transition: 0.3s;
-
+cursor: pointer;
                }
                .edit-button:hover{
 color: red;
+
+
+               }
+               .container-tabla .container-move-buttons{
+                display: flex;
+                justify-content: center;
+              
+                align-items: center;
+                width: 98%;
+                height: 5%;
+                background-color: #313E54;
+
+
+               }
+               .container-move-buttons .content-buttons{
+display: flex;
+justify-content: space-around;
+                width: 40%;
+                height: 80%;
+                
+               }
+               .content-buttons .division{
+display: flex;
+justify-content: space-around;
+width: 30%;
+height: 100%;
+background-color: goldenrod;
+border-radius: 2vw;
+
+               }
+               .division .arrow-button{
+display: flex;
+background:none;
+color: white;
+
+border: none;
+width: 30%;
+height: 100%;
+font-size:2.4vw;
+justify-content: center;
+align-items: center;
+cursor: pointer;
+transition: 0.5s;
+
+               }
+               .arrow-button:hover{
+color: #268ECD;
+
+
 
 
                }

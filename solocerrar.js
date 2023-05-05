@@ -13,6 +13,4 @@ const cerrar=document.getElementById("cerrar")
 
 
 
-
-
         
