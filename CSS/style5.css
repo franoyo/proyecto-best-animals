@@ -719,11 +719,15 @@ border: solid #278fce;
    }
    .nm .ponernum{
 display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
 width: 30%;
 height: 100%;
-
+font-family: hatton;
 border-top: solid #278fce;
 border-bottom: solid #278fce;
+font-size: 2vh;
 
    }
    @media(orientation:portrait){

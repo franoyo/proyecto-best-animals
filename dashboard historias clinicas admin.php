@@ -5,10 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="stylesheet" href="CSS/style5.css">
+    <link rel="stylesheet" href="CSS/style5.css?=v1.1">
     <title>dashboard hist clinicas</title>
 </head>
 <body>
+<?php
+include("connect_db.php");
+include("alerta_datos_ingresados_correctamente.html");
+  
+
+
+
+?>
   <div class="maincontainer">
     
 <div class="cont1">
@@ -47,7 +55,7 @@
   <div class="linea"></div>
 </div>
 <div class="dash">
-  <a class="ins" href="dashboard historias clinicas admin.html"><p class="t1">HISTORIAS CLINICAS</p></a>
+  <a class="ins" href="dashboard historias clinicas admin.php"><p class="t1">HISTORIAS CLINICAS</p></a>
   <div class="linea"></div>
 </div>
 <div class="dash">
@@ -65,7 +73,7 @@
 <div class="cont2">
 <header class="subuser">
     <div class="mitad" >     <nav>
-      <a href=""><img class="user" src="img/buttton.png" alt=""></a>
+      <a href=""><img class="user" src="img/buttton.png" alt="boton"></a>
       
           </nav> 
           <p class="admn">ADMINISTRADOR</p>                </div>
@@ -80,11 +88,16 @@
 </div>
 </header>
 <div class="cont3">
-  <form class="cont3" action="ds.php" method="post">
+  <form class="cont3" action="registro_acta_medica.php" method="post">
   <div class="menumin">
     <nav class="modify-buttons">
     <input class="create" type="submit" value="CREAR">
-    <input class="search" type="button" value="BUSCAR">
+    <script>
+      function redireccionar(){
+window.location.href="crude_historia_clinica.php";
+      }
+    </script>
+    <input class="search" onclick="redireccionar()" type="button" value="BUSCAR">
     <input class="resetear" type="reset" value="RESETEAR">
     </nav>
   </div>
@@ -157,27 +170,27 @@
   <div class="mn1">
     <div class="fc">
 <div class="fi"><div class="mg">FC:</div></div>
-<div class="fu"><input class="tex" type="text" ></div>
+<div class="fu"><input class="tex" name="fc" type="text" ></div>
     </div>
     <div class="fc">
       <div class="fi"><div class="mg">FR:</div></div>
-      <div class="fu"><input class="tex" type="text" ></div>
+      <div class="fu"><input class="tex" name="fr" type="text" ></div>
 
     </div>
     <div class="fc">
       <div class="fi"><div class="mg">TEMPERATURA:</div></div>
-      <div class="fu"><input class="tex" type="text" ></div>
+      <div class="fu"><input class="tex" name="temperatura" type="text" ></div>
 
 
     </div>
     <div class="fc">
       <div class="fi"><div class="mg">LLENADO CAPILAR:</div></div>
-      <div class="fu"><input class="tex" type="text" ></div>
+      <div class="fu"><input class="tex" name="llenado_capilar" type="text" ></div>
 
     </div>
     <div class="fc">
       <div class="fi"><div class="mg">PULSO:</div></div>
-      <div class="fu"><input class="tex" type="text" ></div>
+      <div class="fu"><input class="tex" name="pulso" type="text" ></div>
 
 
     </div>
@@ -197,7 +210,14 @@
   </div>
   <div class="second"> <div class="tratamiento"><header class="tara"><p>TRATAMIENTO:</p></header>
   <textarea class="form-control loop" name="tratamiento" id="" cols="5" rows="5"></textarea></div></div>
-  <div class="fecha"><div class="historia"> <div class="nm"><div class="hist"><p>No.Historia:</p></div> <div class="ponernum"></div></div></div> </div>                                     </div>
+  <div class="fecha"><div class="historia"> <div class="nm"><div class="hist"><p>No.Historia:</p></div> <div class="ponernum">
+  <?php
+  $consulta="SELECT * FROM historias_clinicas WHERE id_acta = (SELECT MAX(id_acta) FROM historias_clinicas)";
+$resultado=mysqli_query($conn,$consulta);
+$filas=mysqli_fetch_column($resultado);
+$my_id=$filas+1;
+echo($my_id);?>
+</div></div></div> </div>                                     </div>
 
 
 </div>

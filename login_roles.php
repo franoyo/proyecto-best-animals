@@ -42,7 +42,7 @@ $resultado2=mysqli_query($conn,$consulta1);
 $filas2=mysqli_fetch_array($resultado2);
 $consultar_rol=$filas2["rol_id"];
 if ($consultar_rol==1) {
-  header("location:dashaboard_admin_productos.html");
+  header("location:dashboard_inicio_admin.html");
    
   }
   elseif ($consultar_rol==3) {
