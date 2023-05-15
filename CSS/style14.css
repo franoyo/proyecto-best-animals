@@ -773,12 +773,13 @@ color: #268ecd;
                 flex-direction: column;
                text-align: center;
                 align-items: center;
-                
+                overflow: hidden;
         width: 80%;
         height: 100%;
         
         
         background-color: #313e54;
+        
         
         
         
@@ -812,12 +813,15 @@ color: #268ecd;
             }
             .cont1 .t1{
                 display: flex;
-        width: 100%;
-        height: 20%;
-        font-size: 0.7vh;
-        color: beige;
-        font-family:hatton;
-        margin-top: 2.5vh;
+              
+                width: 100%;
+                height: 100%;
+                
+                font-size: 1.7vw;
+                text-align: center;
+                color: beige;
+                font-family:hatton;
+                margin-top: 12%;
         
         
         

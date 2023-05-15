@@ -299,7 +299,8 @@ height: 100%;
 width: 40%;
 height: 40%;
 text-align: center;
-font-size: 2vh;
+font-size: 1.9vh;
+font-family: hatton;
 
    }
    .contpertable .conttable{
@@ -314,6 +315,7 @@ height: 22%;
 width: 100%;
 height: 100%;
 font-size: 2vh;
+font-family: hatton;
 
    }
    
@@ -365,6 +367,7 @@ border-color: #278fce;
    }
    .subti .dates{
 font-size: 1.5vh;
+font-family: hatton;
 
 
 
@@ -381,6 +384,7 @@ font-size: 1.5vh;
    .tableaftersubti .put{
 width: 100%;
 font-size: 2vh;
+font-family: hatton;
 
    }
    .tableaftersubti .fami{
@@ -410,6 +414,7 @@ font-size: 2vh;
     width: 100%;
     height: 3%;
     font-size: 1.5vh;
+    font-family: hatton;
     
     border-top: solid #278fce;
     border-bottom: solid  #278fce;
@@ -437,6 +442,7 @@ height: 30%;
     width: 40%;
     height: 100%;
    font-size: 1.7vh;
+   font-family: hatton;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -461,6 +467,7 @@ text-align: center;
 align-items: center;
 justify-content: center;
 font-size: 1.7vh;
+font-family: hatton;
 width: 26.5%;
 height: 100%;
 
@@ -474,6 +481,7 @@ justify-content: center;
 align-items: center;
 text-align: center;
 font-size: 1.7vh;
+font-family: hatton;
 width: 26.5%;
 height: 100%;
 
@@ -525,7 +533,8 @@ height: 20%;
    .registros .tex{
     display: flex;
     
-    font-size: 100%;
+    font-size: 2vh;
+    font-family: hatton;
     border: none;
 width: 100%;
 border-bottom: solid #278fce;
@@ -536,6 +545,7 @@ border-bottom: solid #278fce;
     display: flex;
     
     font-size: 1.5vh;
+    font-family: hatton;
     
 width: 100%;
 border-bottom: solid #278fce;
@@ -548,7 +558,8 @@ border-bottom: solid #278fce;
     display: flex;
     width: 7%;
     height: 100%;
- 
+ justify-content: center;
+ align-items: center;
     text-align: center;
     border-top:  solid #278fce;
    border-left: solid #278fce;
@@ -562,6 +573,7 @@ border-bottom: solid #278fce;
     writing-mode: vertical-lr;
     transform: rotate(180deg);
     font-size: 1.5vh;
+    font-family: hatton;
    
    }
    .registros .mn3{
@@ -585,6 +597,7 @@ border-bottom: solid #278fce;
 width: 100%;
 height:100%;
 font-size: 2vh;
+font-family: hatton;
 
 
 
@@ -626,6 +639,7 @@ border: solid #278fce;
     display: flex;
 
 font-size: 1.7vh;
+font-family: hatton;
 justify-content: start;
 text-align: center;
 
@@ -640,6 +654,8 @@ border-bottom: solid #278fce;
     display: flex;
 width: 100%;
 height:100%;
+font-size: 2vh;
+font-family: hatton;
 
 
    }
@@ -666,6 +682,7 @@ display: flex;
 justify-content: start;
 text-align: center;
 font-size: 1.7vh;
+font-family: hatton;
 width: 100%;
 height: 20%;
 
@@ -676,6 +693,8 @@ border-bottom: solid #278fce;
     display: flex;
     width: 100%;
 height:100%;
+font-size: 2vh;
+font-family: hatton;
    }
    .contlast .fecha{
     display: flex;
@@ -782,7 +801,7 @@ height: 80%;
         flex-direction: column;
        text-align: center;
         align-items: center;
-        
+        overflow: hidden;
 width: 80%;
 height: 100%;
 
@@ -821,12 +840,15 @@ width: 100%;
     }
     .cont1 .t1{
         display: flex;
-width: 100%;
-height: 20%;
-font-size: 0.7vh;
-color: beige;
-font-family:hatton;
-margin-top: 2.5vh;
+              
+        width: 100%;
+        height: 100%;
+        
+        font-size: 1.7vw;
+        text-align: center;
+        color: beige;
+        font-family:hatton;
+        margin-top: 12%;
 
 
 
@@ -1045,6 +1067,7 @@ width: 40%;
 height: 40%;
 text-align: center;
 font-size: 1.32vh;
+font-family: hatton;
 
    }
    .contpertable .conttable{
@@ -1058,7 +1081,8 @@ height: 22%;
    .conttable .output{
 width: 100%;
 height: 100%;
-font-size: 1vh;
+font-size: 1.3vh;
+    font-family: hatton;
 
    }
    
@@ -1109,7 +1133,8 @@ border-color: #278fce;
 
    }
    .subti .dates{
-font-size: 1.4vh;
+    font-size: 1.3vh;
+    font-family: hatton;
 
 
 
@@ -1125,7 +1150,8 @@ font-size: 1.4vh;
    }
    .tableaftersubti .put{
 width: 100%;
-font-size: 1vh;
+font-size: 1.2vh;
+    font-family: hatton;
 
    }
    .tableaftersubti .fami{
@@ -1154,7 +1180,8 @@ font-size: 1vh;
     text-align: center;
     width: 100%;
     height: 3%;
-    font-size: 1.5vh;
+    font-size: 1.4vh;
+    font-family: hatton;
     
     border-top: solid #278fce;
     border-bottom: solid  #278fce;
@@ -1181,7 +1208,8 @@ height: 30%;
     display: flex;
     width: 40%;
     height: 100%;
-   font-size: 1.3vh;
+    font-size: 1.4vh;
+    font-family: hatton;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -1205,7 +1233,8 @@ display: flex;
 text-align: center;
 align-items: center;
 justify-content: center;
-font-size: 1.3vh;
+font-size: 1.4vh;
+    font-family: hatton;
 width: 26.5%;
 height: 100%;
 
@@ -1218,7 +1247,8 @@ display: flex;
 justify-content: center;
 align-items: center;
 text-align: center;
-font-size: 1.3vh;
+font-size: 1.4vh;
+    font-family: hatton;
 width: 26.5%;
 height: 100%;
 
@@ -1270,7 +1300,8 @@ height: 20%;
    .registros .tex{
     display: flex;
     
-    font-size: 100%;
+    font-size: 1.2vh;
+    font-family: hatton;
     border: none;
 width: 100%;
 border-bottom: solid #278fce;
@@ -1281,6 +1312,7 @@ border-bottom: solid #278fce;
     display: flex;
     
     font-size: 1vh;
+    font-family: hatton;
     
 width: 100%;
 border-bottom: solid #278fce;
@@ -1293,7 +1325,8 @@ border-bottom: solid #278fce;
     display: flex;
     width: 7%;
     height: 100%;
- 
+ justify-content: center;
+ align-items: center;
     text-align: center;
     border-top:  solid #278fce;
    border-left: solid #278fce;
@@ -1306,7 +1339,8 @@ border-bottom: solid #278fce;
     
     writing-mode: vertical-lr;
     transform: rotate(180deg);
-    font-size: 0.85vh;
+    font-size: 1vh;
+    font-family: hatton;
    
    }
    .registros .mn3{
@@ -1329,7 +1363,8 @@ border-bottom: solid #278fce;
  display: flex;
 width: 100%;
 height:100%;
-font-size: 1.3vh;
+font-size: 1.2vh;
+    font-family: hatton;
 
 
 
@@ -1370,7 +1405,8 @@ border: solid #278fce;
    .pruebascontainer .laboratorio{
     display: flex;
 
-font-size: 1vh;
+    font-size: 1vh;
+    font-family: hatton;
 justify-content: start;
 text-align: center;
 
@@ -1385,6 +1421,8 @@ border-bottom: solid #278fce;
     display: flex;
 width: 100%;
 height:100%;
+font-size: 1.2vh;
+    font-family: hatton;
 
 
    }
@@ -1411,6 +1449,7 @@ display: flex;
 justify-content: start;
 text-align: center;
 font-size: 1.5vh;
+    font-family: hatton;
 width: 100%;
 height: 20%;
 
@@ -1421,6 +1460,8 @@ border-bottom: solid #278fce;
     display: flex;
     width: 100%;
 height:100%;
+font-size: 1.2vh;
+    font-family: hatton;
    }
    .contlast .fecha{
     display: flex;
@@ -1455,7 +1496,8 @@ margin-top: 38px;
     display: flex;
 width: 70%;
 height: 100%;
-font-size: 1vh;
+font-size: 1.2vh;
+    font-family: hatton;
 
 
 

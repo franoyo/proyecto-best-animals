@@ -10,7 +10,7 @@ include("connect_db.php");
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/style14.css?=1.6">
+    <link rel="stylesheet" href="CSS/style14.css?=1.61">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <title>Admin_stock</title>
 </head>

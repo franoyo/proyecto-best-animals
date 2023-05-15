@@ -1,491 +1,1054 @@
-body{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    
-    }
-    @font-face{
-        font-family:hatton;
-        src: url(../fuentes/PP\ Hatton\ Medium\ 500.otf);
-               }
-       .new-acta{
-width: 4.8%;
-height: 8%;
-border-radius: 50%;
-right: 1%;
-bottom: 75%;
-display: flex;
-justify-content: center;
-align-items: center;
-color: white;
-font-size: 6vh;
-position: fixed;
-background-color: rgb(3, 0, 192);
-transition: .5s;
+body {
+       margin: 0;
+       padding: 0;
+       box-sizing: border-box;
 
-       }
-       .new-acta:hover{
-              background-color: orange;
-color: black;
-       }
-               
-               
-    .maincontainer{
-    display: flex;
-    flex-direction: row;
-    width: 100vw;
-    height: 100vh;
-    
-    
-    
-    
-    
-    
-    
-    }
-    .maincontainer .cont1{
-    display: flex;
-    width: 23vw;
-    height: 100%;
-    background-color: #313e54;
-    flex-direction: column;
-    align-items: center;
-    
-    
-    
-    
-    }
-    .cont1 .logo{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 25vh;
-    background-color: #313e54;
-    
-    
-    }
-    .logo .best{
-    width: 90%;
-    height: 60%;
-    
-    
-    
-    }
-    .cont1 .dash{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 80%;
-    height: 11.11%;
-    
-    
-    background-color: #313e54;
-    transition: 0.5s;
-    
-    
-    
-    
-    
-    
-    }
-    .dash:hover{
-    
-    background-color: rgb(13, 105, 117);
-    
-    
-    
-    }
-    .cont1 .linea{
-    background-color: rgb(255, 255, 255);
-    width: 100%;
-    height: 0.3vh;
-    }
-    
-    .cont1 .ins {
-    text-decoration: none;
-    
-    }
-    .cont1 .b{
-    color: white;
-    width: 100%;
-    
-    }
-    .cont1 .t1{
-        display: flex;
-    width: 100%;
-    height: 20%;
-    font-size: 2.4vh;
-    font-family: hatton;
-    color: beige;
-    
-    
-    
-    }
-    .maincontainer .cont2{
-    
-        display: flex;
-        flex-direction: column;
-        width: 80%;
-        height: 100vh;
-       
-    
-    
-    }
-    .cont2 .subuser{
-        display: flex;
-        
-        align-items: center;
-    width: 100%;
-    height: 15vh;
-    background-color: white;
-    
-    
-    }
-    .subuser .mitad{
-        display: flex;
+}
+
+@font-face {
+       font-family: hatton;
+       src: url(../fuentes/PP\ Hatton\ Medium\ 500.otf);
+}
+
+.new-acta {
+       width: 4.8%;
+       height: 8%;
+       border-radius: 50%;
+       right: 1%;
+       bottom: 75%;
+       display: flex;
+       justify-content: center;
        align-items: center;
-    width: 50%;
-    height: 15vh;
-    
-    
-    }
-    
-    .mitad .admn{
+       color: white;
+       font-size: 6vh;
+       position: fixed;
+       background-color: rgb(3, 0, 192);
+       transition: .5s;
+
+}
+
+.new-acta:hover {
+       background-color: orange;
+       color: black;
+}
+
+
+.maincontainer {
+       display: flex;
+       flex-direction: row;
+       width: 100vw;
+       height: 100vh;
+
+
+
+
+
+
+
+}
+
+.maincontainer .cont1 {
+       display: flex;
+       width: 23vw;
+       height: 100%;
+       background-color: #313e54;
+       flex-direction: column;
+       align-items: center;
+
+
+
+
+}
+
+.cont1 .logo {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       width: 100%;
+       height: 25vh;
+       background-color: #313e54;
+
+
+}
+
+.logo .best {
+       width: 90%;
+       height: 60%;
+
+
+
+}
+
+.cont1 .dash {
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       width: 80%;
+       height: 11.11%;
+
+
+       background-color: #313e54;
+       transition: 0.5s;
+
+
+
+
+
+
+}
+
+.dash:hover {
+
+       background-color: rgb(13, 105, 117);
+
+
+
+}
+
+.cont1 .linea {
+       background-color: rgb(255, 255, 255);
+       width: 100%;
+       height: 0.3vh;
+}
+
+.cont1 .ins {
+       text-decoration: none;
+
+}
+
+.cont1 .b {
+       color: white;
+       width: 100%;
+
+}
+
+.cont1 .t1 {
+       display: flex;
+       width: 100%;
+       height: 20%;
+       font-size: 2.4vh;
+       font-family: hatton;
+       color: beige;
+
+
+
+}
+
+.maincontainer .cont2 {
+
+       display: flex;
+       flex-direction: column;
+       width: 80%;
+       height: 100vh;
+
+
+
+}
+
+.cont2 .subuser {
+       display: flex;
+
+       align-items: center;
+       width: 100%;
+       height: 15vh;
+       background-color: white;
+
+
+}
+
+.subuser .mitad {
+       display: flex;
+       align-items: center;
+       width: 50%;
+       height: 15vh;
+
+
+}
+
+.mitad .admn {
+
+       width: 100%;
+       height: 20%;
+
+       margin-left: 5vh;
+       font-family: hatton;
+       font-size: 2vh;
+
+}
+
+.mitad .user {
+       width: 70%;
+       height: 7vh;
+       margin-left: 5vh;
+
+
+
+}
+
+
+
+.subuser .mitad2 {
+       width: 50%;
+       height: 15vh;
+       display: flex;
+       flex-direction: row-reverse;
+       align-items: center;
+
+
+
+}
+
+.mitad2 .button {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       text-decoration: none;
+       width: 14%;
+       height: 6vh;
+       margin-right: 3vh;
+       background: none;
+       border: solid orange;
+       color: #268ecd;
+       font-size: 2vh;
+       font-family: hatton;
+       transition: 1s;
+}
+
+#cate {
+       width: 100%;
+
+}
+
+.button:hover {
+
+       background-color: orange;
+
+
+}
+
+.cont3 {
+       display: flex;
+       flex-direction: column;
+       width: 100%;
+       height: 85%;
+       background-color: #f6f6f6;
+
+
+
+}
+
+.cont3 .put-title {
+       display: flex;
+       width: 100%;
+       height: 15%;
+
+}
+
+.put-title .container-buscador {
+       width: 25%;
+       height: 100%;
+       display: flex;
+       align-items: end;
+       justify-content: center;
+
+}
+
+.container-buscador .put-search {
+       width: 80%;
+       height: 40%;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+
+
+}
+
+.put-search .buscador {
+       display: flex;
+       width: 100%;
+       height: 90%;
+       font-size: 2vh;
+       font-family: hatton;
+       border: 0.222vw solid #268ecd;
+       border-radius: 0.5vw;
+       outline-offset: 0.25vh;
+       outline-color: rgba(194, 219, 254, 1);
+
+
+
+       transition: all 0.2s ease-in-out;
+
+
+
+}
+
+.buscador:focus {
+       outline-offset: 0.4vh;
+
+       outline-color: rgba(194, 219, 254, 1);
+       border: 0.2vh solid #86B7FE;
+       transition: all 0.2s ease-in-out;
+
+
+}
+
+.put-title .titulo {
+       width: 50%;
+       height: 100%;
+       display: flex;
+
+       justify-content: center;
+       align-items: center;
+       text-align: center;
+       font-family: hatton;
+       font-size: 3vh;
+
+}
+
+.cont3 .container-table {
+       width: 100%;
+       height: 85%;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+
+
+
+}
+
+.container-table .container-move-buttons {
+       width: 95%;
+       height: 8%;
+       display: flex;
+       background-color: #313e54;
+
+}
+
+.container-table .tabla {
+       width: 95%;
+       height: 90%;
+       display: flex;
+       flex-direction: column;
+       background-color: rgb(233, 241, 224);
+       border-left: solid 0.2vw gray;
+       border-bottom: solid 0.2vw gray;
+       border-top: solid 0.2vw gray;
+       border-right: solid 0.2vw gray;
+       overflow: hidden;
+       flex-wrap: wrap;
+}
+
+.tabla .row-title {
+       width: 100%;
+       height: 10%;
+       display: flex;
+       background-color: rgb(200, 248, 145);
+
+}
+
+.row-title .put-id {
+       width: 6%;
+       height: 100%;
+       display: flex;
+       border-bottom: solid 0.2vw gray;
+       border-right: solid 0.2vw gray;
+       justify-content: center;
+       align-items: center;
+       font-size: 2vh;
+       font-family: hatton;
+
+
+}
+
+.row-title .name-mascota {
+       width: 14%;
+       height: 100%;
+       display: flex;
+       justify-content: center;
+       border-bottom: solid 0.2vw gray;
+       border-right: solid 0.2vw gray;
+       align-items: center;
+       font-size: 1.2vw;
+       font-family: hatton;
+       text-align: center;
+
+
+}
+
+.row-title .name-dueño {
+       width: 14%;
+       height: 100%;
+       display: flex;
+       justify-content: center;
+       border-bottom: solid 0.2vw gray;
+       border-right: solid 0.2vw gray;
+       align-items: center;
+       font-size: 1.2vw;
+       font-family: hatton;
+       text-align: center;
+
+
+}
+
+.row-title .botones {
+       width: 8%;
+       height: 100%;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       border-bottom: solid 0.2vw gray;
+       border-right: solid 0.2vw gray;
+       font-size: 1.2vw;
+       font-family: hatton;
+       text-align: center;
+
+}
+
+.row-title .botones-1 {
+       width: 8%;
+       height: 100%;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       border-bottom: solid 0.2vw gray;
+
+       font-size: 1.2vw;
+       font-family: hatton;
+       text-align: center;
+       overflow: hidden;
+
+}
+
+.tabla .row-info {
+       width: 100%;
+       height: 10%;
+       display: flex;
+       background-color: rgb(233, 241, 224);
+}
+
+.row-info .put-id {
+       width: 6%;
+       height: 100%;
+       display: flex;
+       border-top: solid 0.2vw gray;
+       border-right: solid 0.2vw gray;
+       border-bottom: solid 0.2vw gray;
+       justify-content: center;
+       align-items: center;
+       font-size: 2vh;
+       font-family: hatton;
+
+
+}
+
+.row-info .name-mascota {
+       width: 14%;
+       height: 100%;
+       display: flex;
+       justify-content: center;
+       border-top: solid 0.2vw gray;
+       border-right: solid 0.2vw gray;
+       border-bottom: solid 0.2vw gray;
+       align-items: center;
+       font-size: 1.2vw;
+       font-family: hatton;
+       text-align: center;
+
+
+}
+
+.row-info .name-dueño {
+       width: 14%;
+       height: 100%;
+       display: flex;
+       justify-content: center;
+       border-top: solid 0.2vw gray;
+       border-right: solid 0.2vw gray;
+       border-bottom: solid 0.2vw gray;
+       align-items: center;
+       font-size: 1.2vw;
+       font-family: hatton;
+       text-align: center;
+
+
+}
+
+.row-info .botones {
+       width: 8%;
+       height: 100%;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       border-top: solid 0.2vw gray;
+       border-right: solid 0.2vw gray;
+       border-bottom: solid 0.2vw gray;
+       font-size: 1.2vw;
+       font-family: hatton;
+       text-align: center;
+
+}
+
+.row-info .botones-1 {
+       width: 8%;
+       height: 100%;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       border-top: solid 0.2vw gray;
+       border-bottom: solid 0.2vw gray;
+       font-size: 1.2vw;
+       font-family: hatton;
+       text-align: center;
+
+}
+
+.botones .put-icon {
+       width: 50%;
+       height: 80%;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       text-decoration: none;
+       color: #268ecd;
+       font-size: 4vh;
+       transition: .2s;
+
+}
+
+.botones-1 .put-icon {
+       width: 50%;
+       height: 80%;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       text-decoration: none;
+       color: #268ecd;
+       font-size: 4vh;
+       transition: .2s;
+}
+
+.put-icon:hover {
+       color: #860069;
+
+}
+
+@media (orientation:portrait) {
+
+       body{
+              background-color: #f6f6f6;
+          }
+          .new-acta {
+              width: 12.5%;
+              height: 6%;
+              border-radius: 50%;
+              right: 1%;
+              bottom: 75%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              color: white;
+              font-size: 5vh;
+              position: fixed;
+              background-color: rgb(3, 0, 192);
+              transition: .5s;
        
-    width: 100%;
-    height: 20%;
-    
-    margin-left: 5vh;
-    font-family: hatton;
-    font-size: 2vh;
-    
-    }
-    .mitad .user{
-    width: 70%;
-    height: 7vh;
-    margin-left: 5vh;
-    
-    
-    
-    }
-    
-    
-    
-    .subuser .mitad2{
-        width: 50%;
-    height: 15vh;
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    
-    
-    
-    }
-    .mitad2 .button{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-decoration: none;
-        width: 14%;
-    height: 6vh;
-    margin-right: 3vh;
-    background: none;
-    border: solid orange;
-    color: #268ecd;
-    font-size: 2vh;
-    font-family: hatton;
-    transition: 1s;
-    }
-    #cate{
-    width: 100%;
-    
-    }
-    .button:hover{
-        
-    background-color: orange;
-    
-    
-    }
-    .cont3{
-        display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 85%;
-    background-color: #f6f6f6;
-    
-    
-    
        }
-       .cont3 .put-title{
-        display: flex;
-        width: 100%;
-        height: 15%;
-     
-       }
-       .put-title .container-buscador{
-        width: 25%;
-        height: 100%;
-        display: flex;
-        align-items: end;
-justify-content: center;
-        
-       }
-       .container-buscador .put-search{
-width: 80%;
-height: 40%;
-display: flex;
-justify-content: center;
-align-items: center;
-
-
-       }
-       .put-search .buscador{
-        display: flex;
-width: 100%;
-height: 90%;
-font-size: 2vh;
-font-family: hatton;
-border: 0.222vw solid #268ecd;
-border-radius: 0.5vw;
-outline-offset: 0.25vh;
-outline-color:rgba(194, 219, 254, 1);
-
-
-
-transition: all 0.2s ease-in-out;
-
-
-
-       }
-       .buscador:focus{
-        outline-offset: 0.4vh;
-     
-        outline-color:rgba(194, 219, 254, 1);
-        border:0.2vh solid #86B7FE;
-        transition: all 0.2s ease-in-out;
-
-
-       }
-       .put-title .titulo{
-width: 50%;
-height: 100%;
-display: flex;
-
-justify-content: center;
-align-items: center;
-text-align: center;
-font-family: hatton;
-font-size: 3vh;
-
-       }
-       .cont3 .container-table{
-width: 100%;
-height: 85%;
-display:flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-
-
-
-       }
-       .container-table .container-move-buttons{
-width:95% ;
-height:8%;
-display: flex;
-background-color: #313e54;
-
-       }
-       .container-table .tabla{
-width: 95%;
-height: 90%;
-display: flex;
-flex-direction: column;
-background-color: rgb(233, 241, 224);
-border-left:solid 0.2vw gray ;
-border-bottom:solid 0.2vw gray ;
-border-top:solid 0.2vw gray ;
-border-right:solid 0.2vw gray ;
-overflow: hidden;
-flex-wrap: wrap;
-       }
-       .tabla .row-title{
-width: 100%;
-height: 10%;
-display: flex;
-background-color: rgb(200, 248, 145);
-
-       }
-       .row-title .put-id{
-width: 6%;
-height: 100%;
-display: flex;
-border-bottom: solid 0.2vw gray;
-border-right: solid 0.2vw gray;
-justify-content: center;
-align-items: center;
-font-size: 2vh;
-font-family: hatton;
-
-
-       }
-       .row-title .name-mascota{
-        width: 14%;
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        border-bottom: solid 0.2vw gray;
-        border-right: solid 0.2vw gray;
-        align-items: center;
-        font-size: 1.2vw;
-        font-family: hatton;
-        text-align: center;
+          .maincontainer{
+              display: flex;
+              flex-direction: column;
+      width: 100%;
+      height: 100vh;
       
-        
-               }
-               .row-title .name-dueño{
-                width: 14%;
-                height: 100%;
-                display: flex;
-                justify-content: center;
-                border-bottom: solid 0.2vw gray;
-                                 border-right: solid 0.2vw gray;
-                align-items: center;
-                font-size: 1.2vw;
-                font-family: hatton;
-                text-align: center;
+      
+      
+      
+      
+      
+      
+          }
+          .maincontainer .cont1{
+              display: flex;
+              width: 100%;
+              height: 10%;
+              background-color: #313e54;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      
+      
+      
+      
+          }
+          .cont1 .logo{
+              display: none;
+              justify-content: center;
+              align-items: center;
+      width: 100%;
+      height: 25vh;
+      background-color: #313e54;
+      
+      
+          }
+          .logo .best{
+              width: 90%;
+      height: 80%;
+      
+      
+      
+          }
+          .cont1 .dash{
+              display: flex;
+              flex-direction: column;
+             text-align: center;
+              align-items: center;
+              overflow: hidden;
+      width: 80%;
+      height: 100%;
+      
+      
+      background-color: #313e54;
+      
+      
+      
+      
+      
+      
               
-
-               }
-               .row-title .botones{
-                width: 8%;
-                height: 100%;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                border-bottom: solid 0.2vw gray;
-                 border-right: solid 0.2vw gray;
-                font-size: 1.2vw;
-                font-family: hatton;
-                text-align: center;
-               
-               }
-                .row-title .botones-1{
-                width: 8%;
-                height: 100%;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                border-bottom: solid 0.2vw gray;
-                
-                font-size: 1.2vw;
-                font-family: hatton;
-                text-align: center;
-                overflow: hidden;
-               
-               }
-               .tabla .row-info{
-                width: 100%;
-height: 10%;
-display: flex;
-background-color: rgb(233, 241, 224);
-               }
-               .row-info .put-id{
-                width: 6%;
-                height: 100%;
-                display: flex;
-                border-top: solid 0.2vw gray;
-                border-right: solid 0.2vw gray;
-                  border-bottom: solid 0.2vw gray;
-                justify-content: center;
-                align-items: center;
-                font-size: 2vh;
-                font-family: hatton;
-                
-                
-                       }
-                       .row-info .name-mascota{
-                        width: 14%;
-                        height: 100%;
-                        display: flex;
-                        justify-content: center;
-                        border-top: solid 0.2vw gray;
-                        border-right: solid 0.2vw gray;
-                        border-bottom: solid 0.2vw gray;
-                        align-items: center;
-                        font-size: 1.2vw;
-                        font-family: hatton;
-                        text-align: center;
-                      
-                        
-                               }
-                               .row-info .name-dueño{
-                                width: 14%;
-                                height: 100%;
-                                display: flex;
-                                justify-content: center;
-                                border-top: solid 0.2vw gray;
-                                                 border-right: solid 0.2vw gray;
-                                                 border-bottom: solid 0.2vw gray;
-                                align-items: center;
-                                font-size: 1.2vw;
-                                font-family: hatton;
-                                text-align: center;
-                              
-                
-                               }
-                               .row-info .botones{
-                                width: 8%;
-                                height: 100%;
-                                display: flex;
-                                justify-content: center;
-                                align-items: center;
-                                border-top: solid 0.2vw gray;
-                                 border-right: solid 0.2vw gray;
-                                   border-bottom: solid 0.2vw gray;
-                                font-size: 1.2vw;
-                                font-family: hatton;
-                                text-align: center;
-                               
-                               }
-                                .row-info .botones-1{
-                                width: 8%;
-                                height: 100%;
-                                display: flex;
-                                justify-content: center;
-                                align-items: center;
-                                border-top: solid 0.2vw gray;
-                                border-bottom: solid 0.2vw gray;
-                                font-size: 1.2vw;
-                                font-family: hatton;
-                                text-align: center;
-                               
-                               }
-                               .botones .put-icon{
-width: 50%;
-height: 80%;
-display: flex;
-justify-content: center;
-align-items: center;
-text-decoration: none;
-color: #268ecd;
-font-size: 4vh;
-transition: .2s;
-
-                               }
-                               .botones-1 .put-icon{
-                                width: 50%;
-                                height: 80%;
-                                display: flex;
-                                justify-content: center;
-                                align-items: center;
-                                text-decoration: none;
-                                color: #268ecd;
-                                font-size: 4vh;
-transition: .2s;
-                               }
-                               .put-icon:hover{
-color: #860069;
-
-                               }
+          }
+          .dash:hover{
+              transition: 0.5s;
+      background-color: rgb(13, 105, 117);
+      
+      
+      
+          }
+          .cont1 .linea{
+              display: none;
+              background-color: rgb(255, 255, 255);
+              width: 20%;
+              height: 1vh;
+          }
+          
+          .cont1 .ins {
+      text-decoration: none;
+      
+          }
+          .cont1 .b{
+      color: white;
+      width: 100%;
+      
+          }
+          .cont1 .t1{
+              display: flex;
+              
+      width: 100%;
+      height: 100%;
+      
+      font-size: 1.7vw;
+      text-align: center;
+      color: beige;
+      font-family:hatton;
+      margin-top: 12%;
+      
+      
+      
+          }
+          
+          
+          .maincontainer .cont2{
+      
+              display: flex;
+              flex-direction: column;
+              width: 100%;
+              height: 100vh;
+             
+      
+      
+          }
+          .cont2 .subuser{
+              display: flex;
+              
+              align-items: center;
+      width: 100%;
+      height: 5vh;
+      background-color: white;
+      
+      
+          }
+          .subuser .mitad{
+              display: flex;
+             align-items: center;
+      width: 50%;
+      height: 100%;
+      
+      
+      
+          }
+      
+          .mitad .admn{
+             
+      width: 100%;
+      height: 20%;
+      font-size: 1.2vh;
+      font-family:hatton;
+      margin-left: 3.4vh;
+      
+      
+          }
+          .mitad .user{
+      width: 70%;
+      height: 4vh;
+      margin-left:4.2vh ;
+      
+      
+      
+      
+          }
+      
+      
+      
+          .subuser .mitad2{
+              width: 50%;
+      height: 100%;
+      display: flex;
+      flex-direction: row-reverse;
+      align-items: center;
+      
+      
+      
+          }
+          .mitad2 .button{
+              width: 30%;
+      height: 3vh;
+      margin-right: 1vh;
+      background: none;
+      border: solid orange;
+      color: #268ecd;
+      
+      font-family: hatton;
+      font-size: 1vh;
+      
+          }
+          .button:hover{
+              transition: 1s;
+      background-color: orange;
+      
+      
+          }
+         .cont2 .cont3{
+          display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: 100%;
+      
+      
+      
+      
+         }
+         .cont3 .put-title {
+              display: flex;
+              width: 100%;
+              height: 15%;
+       
+       }
+       
+       .put-title .container-buscador {
+              width: 25%;
+              height: 100%;
+              display: flex;
+              align-items: end;
+              justify-content: center;
+       
+       }
+       
+       .container-buscador .put-search {
+              width: 90%;
+              height: 20%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+       
+       
+       }
+       
+       .put-search .buscador {
+              display: flex;
+              width: 100%;
+              height: 90%;
+              font-size: 1.3vh;
+              font-family: hatton;
+              border: 0.222vw solid #268ecd;
+              border-radius: 0.5vw;
+              outline-offset: 0.25vh;
+              outline-color: rgba(194, 219, 254, 1);
+       
+       
+       
+              transition: all 0.2s ease-in-out;
+       
+       
+       
+       }
+       
+       .buscador:focus {
+              outline-offset: 0.4vh;
+       
+              outline-color: rgba(194, 219, 254, 1);
+              border: 0.2vh solid #86B7FE;
+              transition: all 0.2s ease-in-out;
+       
+       
+       }
+       
+       .put-title .titulo {
+              width: 50%;
+              height: 100%;
+              display: flex;
+       
+              justify-content: center;
+              align-items: center;
+              text-align: center;
+              font-family: hatton;
+              font-size: 2.5vh;
+       
+       }
+       
+       .cont3 .container-table {
+              width: 100%;
+              height: 85%;
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+       
+       
+       
+       }
+       
+       .container-table .container-move-buttons {
+              width: 95%;
+              height: 8%;
+              display: flex;
+              background-color: #313e54;
+       
+       }
+       
+       .container-table .tabla {
+              width: 95%;
+              height: 90%;
+              display: flex;
+              flex-direction: column;
+              background-color: rgb(233, 241, 224);
+              border-left: solid 0.2vw gray;
+              border-bottom: solid 0.2vw gray;
+              border-top: solid 0.2vw gray;
+              border-right: solid 0.2vw gray;
+              overflow: hidden;
+              flex-wrap: wrap;
+       }
+       
+       .tabla .row-title {
+              width: 100%;
+              height: 10%;
+              display: flex;
+              background-color: rgb(200, 248, 145);
+       
+       }
+       
+       .row-title .put-id {
+              width: 6%;
+              height: 100%;
+              display: flex;
+              border-bottom: solid 0.2vw gray;
+              border-right: solid 0.2vw gray;
+              justify-content: center;
+              align-items: center;
+              font-size: 1.5vh;
+              font-family: hatton;
+              overflow: hidden;
+       
+       
+       }
+       
+       .row-title .name-mascota {
+              width: 14%;
+              height: 100%;
+              display: flex;
+              justify-content: center;
+              border-bottom: solid 0.2vw gray;
+              border-right: solid 0.2vw gray;
+              align-items: center;
+              font-size: 1.9vw;
+              font-family: hatton;
+              text-align: center;
+              overflow: hidden;
+       
+       
+       }
+       
+       .row-title .name-dueño {
+              width: 14%;
+              height: 100%;
+              display: flex;
+              justify-content: center;
+              border-bottom: solid 0.2vw gray;
+              border-right: solid 0.2vw gray;
+              align-items: center;
+              font-size: 1.9vw;
+              font-family: hatton;
+              text-align: center;
+              overflow: hidden;
+       
+       
+       }
+       
+       .row-title .botones {
+              width: 8%;
+              height: 100%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              border-bottom: solid 0.2vw gray;
+              border-right: solid 0.2vw gray;
+              font-size: 1.9vw;
+              font-family: hatton;
+              text-align: center;
+              overflow: hidden;
+              
+       
+       }
+       
+       .row-title .botones-1 {
+              width: 8%;
+              height: 100%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              border-bottom: solid 0.2vw gray;
+       
+              font-size: 1.4vw;
+              font-family: hatton;
+              text-align: center;
+              overflow: hidden;
+       
+       }
+       
+       .tabla .row-info {
+              width: 100%;
+              height: 10%;
+              display: flex;
+              background-color: rgb(233, 241, 224);
+       }
+       
+       .row-info .put-id {
+              width: 6%;
+              height: 100%;
+              display: flex;
+              border-top: solid 0.2vw gray;
+              border-right: solid 0.2vw gray;
+              border-bottom: solid 0.2vw gray;
+              justify-content: center;
+              align-items: center;
+              font-size: 1.5vh;
+              font-family: hatton;
+              overflow: hidden;
+       
+       
+       }
+       
+       .row-info .name-mascota {
+              width: 14%;
+              height: 100%;
+              display: flex;
+              justify-content: center;
+              border-top: solid 0.2vw gray;
+              border-right: solid 0.2vw gray;
+              border-bottom: solid 0.2vw gray;
+              align-items: center;
+              font-size: 1.9vw;
+              font-family: hatton;
+              text-align: center;
+              overflow: hidden;
+       
+       
+       }
+       
+       .row-info .name-dueño {
+              width: 14%;
+              height: 100%;
+              display: flex;
+              justify-content: center;
+              border-top: solid 0.2vw gray;
+              border-right: solid 0.2vw gray;
+              border-bottom: solid 0.2vw gray;
+              align-items: center;
+              font-size: 1.9vw;
+              font-family: hatton;
+              text-align: center;
+              overflow: hidden;
+       
+       
+       }
+       
+       .row-info .botones {
+              width: 8%;
+              height: 100%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              border-top: solid 0.2vw gray;
+              border-right: solid 0.2vw gray;
+              border-bottom: solid 0.2vw gray;
+              font-size: 1.9vw;
+              font-family: hatton;
+              text-align: center;
+              overflow: hidden;
+       
+       }
+       
+       .row-info .botones-1 {
+              width: 8%;
+              height: 100%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              border-top: solid 0.2vw gray;
+              border-bottom: solid 0.2vw gray;
+              font-size: 0.5vw;
+              font-family: hatton;
+              text-align: center;
+              overflow: hidden;
+       
+       }
+       
+       .botones .put-icon {
+              width: 50%;
+              height: 80%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              text-decoration: none;
+              color: #268ecd;
+              font-size: 2.5vh;
+              transition: .2s;
+       
+       }
+       
+       .botones-1 .put-icon {
+              width: 50%;
+              height: 80%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              text-decoration: none;
+              color: #268ecd;
+              font-size: 2.5vh;
+              transition: .2s;
+       }
+       
+       .put-icon:hover {
+              color: #860069;
+       
+       }
+}

@@ -128,3 +128,44 @@ height: 90%;
 
 
 }
+@media (orientation:portrait){
+    .mitad1 .put-text{
+        display: flex;
+        justify-content: center;
+        color: #F28601;
+        align-items: center;
+        text-align: center;
+        font-family: hatton;
+        font-size: 2.8vw;
+    width: 70%;
+    height: 100%;
+    transition: 0.5s;
+    
+    
+    }
+    .ver{
+        opacity: 1;
+        pointer-events: auto;
+        }
+        .ver .alerta{
+            width: 70%;
+        height: 60%;
+        
+        }
+        .mitad-botones .boton-confirm{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+        width: 20%;
+        height: 80%;
+        font-size: 3vw;
+        font-family: hatton;
+        color: black;
+        background-color:#268CCA ;
+        border: solid #FF914D;
+        transition: 0.5s;
+        cursor: pointer;
+        }
+    
+}
