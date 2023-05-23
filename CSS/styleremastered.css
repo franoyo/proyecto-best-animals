@@ -254,6 +254,35 @@ font-size: 2vh;
         align-items: center;
         
         }
+        .contenedor_flex .contenedor_logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+width: 35%;
+height: 55%;
+
+
+}
+.contenedor_logo .perro{
+    width: 100%;
+    height: 80%;
+    
+    
+    
+    
+    }
+.contenedor_flex .main_container_botones{
+    display:flex;
+    
+    justify-content: space-around;
+    width: 85%;
+    height: 45%;
+    
+    
+    
+    
+    
+    }
         .contedor_botones .indices{
             text-decoration: none;
             font-size: 1vh;
