@@ -92,7 +92,8 @@ include("alert_datos_modificados_correctamente.html");
                 <div class="cont3" >
                 <div class="insert-title">
                 <div class="container-buscador">
-<form class="put-search" method="get" action="buscador_crud_gestion_usuario.php">
+<form class="put-search" method="get" action="">
+    
     <input type="search" name="buscar" class="buscador" placeholder="Buscador:">
 </form>
                    </div>
@@ -119,7 +120,9 @@ include("alert_datos_modificados_correctamente.html");
 <div class="subtitle-1">BORRAR</div>
 </div>
     <?php
-$sql3=$conn->query("SELECT*FROM empleados");
+    if (isset($_GET["buscar"])){
+        $buscar=$_GET["buscar"];
+$sql3=$conn->query("SELECT*FROM empleados where nombre like'%$buscar%' or apellidos like '%$buscar%' or id_empleado like '%$buscar%'");
 while ($data=$sql3->fetch_object()) {
   ?>
   <div class="row-empleados">
@@ -159,7 +162,7 @@ echo("2.USUARIO");
    
 </div>
 <?php
-}
+}}
 ?>
                     </div>
                     <div class="container-move-buttons">
