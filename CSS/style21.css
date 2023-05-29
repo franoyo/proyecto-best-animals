@@ -374,6 +374,7 @@ transition: 0.5s;
                 border-top: solid 0.2vw black;
                 border-right: solid 0.2vw black;
                 overflow: hidden;
+                scroll-behavior: smooth;
                 flex-wrap: wrap;
 
 

@@ -21,13 +21,13 @@ const botonIzqSimple = document.getElementById("izquierda")
 
 botonDerSimple.addEventListener('click', () => {
 
-   deslizador.scrollLeft+=1000
+   deslizador.scrollLeft+=1300
 })
 
 
 botonIzqSimple.addEventListener('click', () => {
 
-    deslizador.scrollLeft-=1000
+    deslizador.scrollLeft-=1300
      })
 
      //aparecer edit

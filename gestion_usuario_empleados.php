@@ -150,7 +150,7 @@ echo("2.USUARIO");
     
     ?></div>
 
-<div class="subtitle"><a class="edit-button" href="#"><i class="bi bi-eye"></i></a></div>
+<div class="subtitle"><a class="edit-button" href="obtener_id_ver_empleado.php?id=<?=$data->id_empleado?>"><i class="bi bi-eye"></i></a></div>
     <div class="subtitle"><a id="pelo" class="edit-button" href="obtener_id_editar_empleado.php?id=<?=$data->id_empleado?>"  ><i class="bi bi-pencil-square"></i></a></div>
     <div class="subtitle-1">  <a class="edit-button" href="obtener_id.php?id=<?=$data->id_empleado?>">
     <i class="bi bi-person-x"></i>
@@ -185,7 +185,7 @@ echo("2.USUARIO");
 
               
                
-                    <script src="script_gestion_usuario.js?v=2.36"></script>              
+                    <script src="script_gestion_usuario.js?v=2.37"></script>              
     
 </body>
 </html>
