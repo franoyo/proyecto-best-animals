@@ -8,7 +8,7 @@
    
     
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="CSS/style21.css?=1.476">
+    <link rel="stylesheet" href="CSS/style21.css?=1.477">
 </head>
 <body>
 
@@ -90,62 +90,48 @@ include("alert_datos_modificados_correctamente.html");
                 </div>
                 </header>
                 <div class="cont3" >
-                    <div class="menumin">
-                      <nav class="modify-buttons">
-                        <input class="create" type="button" id="cerrar" value="EDITAR">
-                        <input class="search"  type="submit" value="CREAR">
-                      
-                        </nav>  
-                    
-                    </div>
+                <div class="insert-title">
+                <div class="container-buscador">
+<div class="put-search">
+    <input type="search" name="buscar" class="buscador" placeholder="Buscador:">
+</div>
+                   </div>
+                   <div class="titulo">
+<h2>GESTION EMPLEADOS</h2>
+                   </div>
+                    </div>  
                     <div class="container-tabla">
                       <button class="crear" id="create"><i class="bi bi-plus"></i></button>
-                    <div class="insert-title">
-<p>GESTION DE EMPLEADOS</p>
-
-                    </div>    
+                      
                     <div class="tabla" id="tabla">
 <div class="row-subtitle">
-<div class="subtitle">ID EMPLEADO</div>
-<div class="subtitle">NOMBRE</div>
-<div class="subtitle">APELLIDOS</div>
-<div class="subtitle">CEDULA</div>
-<div class="subtitle">CELULAR</div>
-<div class="subtitle">DIRECCION</div>
-<div class="subtitle">CIUDAD</div>
-<div class="subtitle">EMAIL</div>
-<div class="subtitle">CLAVE</div>
-<div class="subtitle">ROL ID</div>
+<div class="put-id">ID</div>
+<div class="name-dueño">NOMBRE</div>
+<div class="apellido-dueño">APELLIDOS</div>
+
+<div class="apellido-dueño">CELULAR</div>
+<div class="apellido-dueño">EMAIL</div>
+
+<div class="apellido-dueño">ROL ID</div>
+
+<div class="subtitle">VER</div>
 <div class="subtitle">EDITAR</div>
-<div class="subtitle">BORRAR</div>
-
-
+<div class="subtitle-1">BORRAR</div>
 </div>
-
     <?php
-   
-
-   
 $sql3=$conn->query("SELECT*FROM empleados");
 while ($data=$sql3->fetch_object()) {
- 
-    
-
-
-                    
-
   ?>
   <div class="row-empleados">
-    <div class="info"><?= $data->id_empleado?></div>
-    <div class="info"><?= $data->nombre   ?></div>
-    <div class="info"><?= $data->apellidos   ?></div>
-    <div class="info"><?= $data->documento   ?></div>
-    <div class="info"><?= $data->celular   ?></div>
-    <div class="info"><?= $data->direccion   ?></div>
-    <div class="info"><?= $data->ciudad   ?></div>
-    <div class="info-email"><?= $data->email   ?></div>
-    <div class="info"><?= $data->clave   ?></div>
-    <div class="info"><?php if ($data->rol_id==1 ) {
+    <div class="put-id" id="id_empleado"><?= $data->id_empleado?></div>
+    <div class="name-dueño"><?= $data->nombre   ?></div>
+    <div class="apellido-dueño"><?= $data->apellidos   ?></div>
+    
+    <div class="apellido-dueño"><?= $data->celular   ?></div>
+   
+    <div id="email_empleado"><?= $data->email   ?></div>
+    
+    <div class="apellido-dueño"><?php if ($data->rol_id==1 ) {
     echo("1. ADMINISTRADOR");
     }elseif($data->rol_id==2){
 echo("2.USUARIO");
@@ -164,9 +150,9 @@ echo("2.USUARIO");
     
     ?></div>
 
- 
-    <div class="info"><a id="pelo" class="edit-button" href="obtener_id_editar_empleado.php?id=<?=$data->id_empleado?>"  ><i class="bi bi-pencil-square"></i></a></div>
-    <div class="info">  <a class="edit-button" href="obtener_id.php?id=<?=$data->id_empleado?>">
+<div class="subtitle"><a class="edit-button" href="#"><i class="bi bi-eye"></i></a></div>
+    <div class="subtitle"><a id="pelo" class="edit-button" href="obtener_id_editar_empleado.php?id=<?=$data->id_empleado?>"  ><i class="bi bi-pencil-square"></i></a></div>
+    <div class="subtitle-1">  <a class="edit-button" href="obtener_id.php?id=<?=$data->id_empleado?>">
     <i class="bi bi-person-x"></i>
   </a></div>
  
@@ -191,6 +177,9 @@ echo("2.USUARIO");
                     </div>
                     </div>
                     
+                    </div>
+                    </div>
+                    </div>
                     </div>
                                   
 
