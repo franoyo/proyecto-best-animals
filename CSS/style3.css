@@ -5,6 +5,10 @@ body{
 
 
 }
+@font-face{
+    font-family:hatton;
+    src: url(../fuentes/PP\ Hatton\ Medium\ 500.otf);
+           }
 .maincointainer1{
     display: flex;
     flex-direction: row;
@@ -65,6 +69,7 @@ height: 77.8%;
            
             color: #268ecd;
             font-size: 5vh;
+            font-family: hatton;
         }
         .contenido2 .formulario{
             width: 100%;
@@ -80,7 +85,15 @@ align-items: center;
         .contenido2 .reg {
 width: 90%;
 height: 4vh;
+border: solid 0.4vh #268ecd;
+border-radius: 0.6vh;
+font-family: hatton;
 
+
+        }
+        ::placeholder{
+            color: #0a8bdb;
+            opacity: 1;
 
         }
         .contenido2 .reg1{
@@ -131,8 +144,8 @@ font-size: 2vh;
             .maincointainer1{
                 display: flex;
                 flex-direction: row;
-            width: 75vh;
-            height: 155vh;
+            width: 100vw;
+            height: 90vh;
             
             
             
@@ -142,7 +155,8 @@ font-size: 2vh;
                 display: flex;
                 flex-direction: column;
                 width: 50%;
-                height: 155vh;
+                height: 100%;
+               
                
             
                 
@@ -153,19 +167,34 @@ font-size: 2vh;
             justify-content: center;
             align-items: center;
                     width: 100%;
-                    height: 20vh;
-        
+                    height: 20%;
+      
                 }
-                .logo .logeishon{
+                .logo .fix{
+width: 80%;
+height: 60%;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+                }
+                .fix .logeishon{
             
             display: flex;
-                    width: 30vh;
-                    height: 13vh;
+                    width: 100%;
+                    height: 100%;
+                    
+                    margin: 0;
+                    margin-right: 0;
                    
                 }
                 .contenido1 .gato{
                     display: flex;
-                    margin-top: 92vh;
+                    position: relative;
+                    top: 50%;
+                    margin-top: 0;
+                    
             width: 100%;
             height: 30%;
             
@@ -178,8 +207,8 @@ font-size: 2vh;
                     display: flex;
                     flex-direction: column;
                     width: 50%;
-                    height: 155vh;
-                   
+                    height: 100%;
+                  
                    
                     
                     
@@ -187,7 +216,7 @@ font-size: 2vh;
                     .contenido2 .register{
                        text-align: center;
                         color: #268ecd;
-                        font-size: 5vh;
+                        font-size: 2.95vh;
                         margin-top: 20%;
                     }
                     .contenido2 .formulario{
@@ -210,7 +239,7 @@ font-size: 2vh;
                     .contenido2 .reg1{
             
             
-            font-size: 5vh;
+            font-size: 3.2vh;
             
             color: #268ecd;
             background: none;
@@ -230,7 +259,7 @@ font-size: 2vh;
                     
                     .fnn{
                         display: flex;
-            width: 75vh;
+            width: 100%;
             height: 10vh;
             background-color: #268ecd;
             justify-content: center;
@@ -239,9 +268,10 @@ font-size: 2vh;
                     }
                     .fnn .finn{
                         display: flex;
+                        text-align: center;
                     }
                     .finn .vet{
-            font-size: 2vh;
+            font-size: 1.4vh;
             
                     }
 
