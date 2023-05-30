@@ -86,8 +86,8 @@ include("alerta_eliminar_crude.php");
             <div class="cont3">
                 <div class="put-title">
                    <div class="container-buscador">
-<form class="put-search" action="buscador_crud_historias_clinicas.php" method="get">
-    <input type="search" name="buscar" class="buscador" placeholder="Buscador:">
+<form class="put-search" action="" method="$_GET">
+    <input type="search" name="search" class="buscador" placeholder="Buscador:">
 </form>
                    </div>
                    <div class="titulo">
@@ -111,8 +111,9 @@ include("alerta_eliminar_crude.php");
 <?php
    include("connect_db.php");
 
-   
-$sql5=$conn->query("SELECT*FROM historias_clinicas");
+   if(isset($_GET["search"])){
+    $search=$_GET["search"];
+$sql5=$conn->query("SELECT*FROM historias_clinicas where nombre_dueño like '%$search%' or nombre_mascota like '%$search%' or id_acta like '%$search%'");
 while ($data=$sql5->fetch_object()) {
   ?>
   <div class="row-info">
@@ -130,17 +131,8 @@ while ($data=$sql5->fetch_object()) {
 
 </div>
 <?php
-}
+}}
 ?>
-    
-
-
-                    
-
- 
-
-
-
                     </div>
                     <div class="container-move-buttons">
                       
