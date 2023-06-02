@@ -1,5 +1,7 @@
 <?php
 include("connect_db.php");
+session_start();
+if (isset($_SESSION["correo"])) {
 ?>
 
 
@@ -166,3 +168,8 @@ echo($my_id);
     
 </body>
 </html>
+<?php
+}
+else{
+  echo("Inicia sesion bobo");
+}?>
